@@ -18,6 +18,8 @@ import {
   HomeScrollBox,
   HomeScrollText,
 } from './HomeComp.styled';
+import { FaLinkedin } from 'react-icons/fa';
+import { RiGithubFill } from 'react-icons/ri';
 import my from '../../img/my.jpg';
 import arrow from '../../img/curved-arrow.svg';
 import lines from '../../img/random-lines.svg';
@@ -43,7 +45,7 @@ export const HomeComp = () => {
               rel="noreferrer"
               class="home__social-link"
             >
-              <i class="ri-linkedin-box-line"></i>
+              <FaLinkedin />
             </HomeSocialLink>
             <HomeSocialLink
               href="https://github.com/IvanTymoshchuk"
@@ -51,7 +53,7 @@ export const HomeComp = () => {
               rel="noreferrer"
               class="home__social-link"
             >
-              <i class="ri-github-line"></i>
+              <RiGithubFill />
             </HomeSocialLink>
           </HomeSocial>
         </HomePerfil>
