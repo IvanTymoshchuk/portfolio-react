@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaLinkedin } from 'react-icons/fa';
+import { RiGithubFill, RiMailLine } from 'react-icons/ri';
 import arrow from '../../img/curved-arrow.svg';
 
 export const Contact = () => {
@@ -81,7 +83,7 @@ export const Contact = () => {
             </div>
             <p class="contact__message" id="contact-message"></p>
             <button type="submit" class="contact__button button">
-              <i class="ri-mail-send-fill"></i> Send Message
+              <RiMailLine/> Send Message
             </button>
           </form>
         </div>
@@ -102,7 +104,7 @@ export const Contact = () => {
                 class="conatact__social-link"
                 rel="noreferrer"
               >
-                <i class="ri-github-line"></i>
+                <RiGithubFill/>
               </a>
 
               <a
@@ -111,7 +113,7 @@ export const Contact = () => {
                 class="conatact__social-link"
                 rel="noreferrer"
               >
-                <i class="ri-linkedin-box-line"></i>
+                <FaLinkedin/>
               </a>
             </div>
           </div>
