@@ -13,7 +13,7 @@ export const Headers = styled.header`
 
 export const Nav = styled.nav`
   position: relative;
-  height: 3.5re;
+  height: 3.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
