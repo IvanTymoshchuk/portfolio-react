@@ -656,7 +656,7 @@ img {
     grid-template-columns: repeat(2, 250px);
   }
   .projects__container {
-    grid-template-columns: repeat(2, 350px);
+    grid-template-columns: repeat(3, 350px);
   }
 }
 /* For large devices */
