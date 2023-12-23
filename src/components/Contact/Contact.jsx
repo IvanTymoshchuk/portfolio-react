@@ -1,4 +1,5 @@
 import React from 'react';
+import arrow from '../../img/curved-arrow.svg';
 
 export const Contact = () => {
   return (
@@ -86,11 +87,7 @@ export const Contact = () => {
         </div>
 
         <div class="contact__social">
-          <img
-            src="assets/img/curved-arrow.svg"
-            alt="arrow"
-            class="contact__social-arrow"
-          />
+          <img src={arrow} alt="arrow" class="contact__social-arrow" />
           <div class="contact__social-data">
             <div>
               <p class="contact__social-description-1">Does not send emails</p>
@@ -103,6 +100,7 @@ export const Contact = () => {
                 href="https://github.com/IvanTymoshchuk"
                 target="_blank"
                 class="conatact__social-link"
+                rel="noreferrer"
               >
                 <i class="ri-github-line"></i>
               </a>
@@ -111,6 +109,7 @@ export const Contact = () => {
                 href="https://www.linkedin.com/in/ivan-tymoshchukk/"
                 target="_blank"
                 class="conatact__social-link"
+                rel="noreferrer"
               >
                 <i class="ri-linkedin-box-line"></i>
               </a>

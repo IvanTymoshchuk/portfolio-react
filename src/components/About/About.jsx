@@ -1,4 +1,6 @@
 import React from 'react';
+import my from '../../img/my2.jpg';
+import lines from '../../img/random-lines.svg';
 
 export const About = () => {
   return (
@@ -9,14 +11,10 @@ export const About = () => {
         </h2>
         <div class="about__perfil">
           <div class="about__image">
-            <img src="assets/img/my2.jpg" alt="image" class="about__img" />
+            <img src={my} alt="my2" class="about__img" />
             <div class="about__shadow"></div>
             <div class="geometric-box"></div>
-            <img
-              src="assets/img/random-lines.svg"
-              alt="random-lines"
-              class="about__line"
-            />
+            <img src={lines} alt="random-lines" class="about__line" />
             <div class="about__box"></div>
           </div>
         </div>
@@ -40,6 +38,7 @@ export const About = () => {
             <a
               href="https://www.linkedin.com/in/ivan-tymoshchukk/"
               class="button-ghost"
+              rel="noreferrer"
               target="_blank"
             >
               <i class="ri-linkedin-box-line"></i>
