@@ -12,6 +12,8 @@ import {
   NavLink,
   NavMenu,
 } from './Header.styled';
+import { IoEyeOutline, IoEyeOffOutline } from 'react-icons/io5';
+import { RiMoonClearLine } from 'react-icons/ri';
 
 export const Header = () => {
   return (
@@ -52,14 +54,16 @@ export const Header = () => {
           </NavList>
 
           <NavClose class="nav__close" id="nav-close">
-            <i class="ri-close-line"></i>
+            <IoEyeOffOutline />
           </NavClose>
         </NavMenu>
         <div class="nav__buttons">
-          <i class="ri-moon-clear-line change-theme" id="theme-btn"></i>
-
+          <RiMoonClearLine
+            class="ri-moon-clear-line change-theme"
+            id="theme-btn"
+          />
           <div class="nav__toggle" id="nav-toggle">
-            <i class="ri-menu-4-line"></i>
+            <IoEyeOutline />
           </div>
         </div>
       </Nav>
