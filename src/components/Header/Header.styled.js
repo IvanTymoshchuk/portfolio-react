@@ -17,6 +17,10 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media screen and (min-width: 1150px) {
+    height: calc(3.5rem + 2rem);
+    column-gap: 4rem;
+  }
 `;
 
 export const NavLogo = styled.a`
@@ -35,6 +39,9 @@ export const NavTogle = styled.div`
   place-items: center;
   font-size: 1.25rem;
   cursor: pointer;
+  @media screen and (min-width: 1150px) {
+    display: none;
+  }
 `;
 
 export const NavLogoCircle = styled.span`
@@ -53,9 +60,15 @@ export const NavTitle = styled.span`
   font-size: 0.75rem;
   font-weight: 600;
   margin-bottom: 3.5rem;
+  @media screen and (min-width: 1150px) {
+    display: none;
+  }
 `;
 
 export const NavName = styled.h3`
+  @media screen and (min-width: 1150px) {
+    display: none;
+  }
   color: hsl(0, 0%, 95%);
   position: relative;
   width: max-content;
@@ -78,6 +91,9 @@ export const NavName = styled.h3`
 `;
 
 export const NavClose = styled.div`
+  @media screen and (min-width: 1150px) {
+    display: none;
+  }
   color: hsl(0, 0%, 95%);
   position: absolute;
   font-size: 1.5rem;
@@ -91,6 +107,10 @@ export const NavList = styled.ul`
   display: flex;
   flex-direction: column;
   row-gap: 2.5rem;
+  @media screen and (min-width: 1150px) {
+    flex-direction: row;
+    column-gap: 4rem;
+  }
 `;
 export const NavLink = styled.a`
   position: relative;
@@ -118,6 +138,10 @@ export const NavLink = styled.a`
 
 /* Navigation for mobile devices */
 export const NavMenu = styled.ul`
+  @media screen and (min-width: 1150px) {
+    margin-left: auto;
+  }
+
   @media screen and (max-width: 1150px) {
     padding-block: 1.8rem 5rem;
     position: fixed;
