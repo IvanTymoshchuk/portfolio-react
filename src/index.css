@@ -145,7 +145,7 @@ img {
 }
 
 /*=============== ABOUT ===============*/
-
+/* 
 .about {
   background-color: hsl(0, 0%, 12%);
   transition: background-color 0.4s;
@@ -232,7 +232,7 @@ img {
   align-items: center;
   justify-content: center;
   column-gap: 1rem;
-}
+} */
 
 /*=============== SERVICES ===============*/
 
@@ -628,8 +628,7 @@ img {
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
-  .home__container,
-  .about__container {
+  .home__container {
     grid-template-columns: 350px;
     justify-content: center;
   }
@@ -658,32 +657,15 @@ img {
 }
 /* For large devices */
 @media screen and (min-width: 1150px) {
-  .container {
+  /* .container {
     margin-inline: auto;
   }
   .section {
     padding-block: 7rem 2rem;
-  }
+  } */
   .section__title-1::after,
   .section__title-2::after {
     width: 70px;
     height: 48px;
-  }
-  .nav {
-    height: calc(var(--header-height) + 2rem);
-    column-gap: 4rem;
-  }
-  .nav__close,
-  .nav__toggle,
-  .nav__title,
-  .nav__name {
-    display: none;
-  }
-  .nav__list {
-    flex-direction: row;
-    column-gap: 4rem;
-  }
-  .nav__menu {
-    margin-left: auto;
   }
 }

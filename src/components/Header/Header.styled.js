@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-/*=============== HEADER & NAV ===============*/
+import { container } from '../utils/styles';
 
 export const Headers = styled.header`
   position: fixed;
@@ -12,6 +12,7 @@ export const Headers = styled.header`
 `;
 
 export const Nav = styled.nav`
+  ${container}
   position: relative;
   height: 3.5rem;
   display: flex;

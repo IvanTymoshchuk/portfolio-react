@@ -1,6 +1,13 @@
 export const container = {
   maxWidth: '1120px',
   marginInline: '1.5rem',
+  '@media screen and (min-width: 576px)': {
+    gridTemplateColumns: '350px',
+    justifyContent: 'center',
+  },
+  '@media screen and (min-width: 1150px)': {
+    marginInline: 'auto',
+  },
 };
 
 export const grid = {
@@ -10,6 +17,9 @@ export const grid = {
 
 export const section = {
   paddingBlock: '4rem 2rem',
+  '@media screen and (min-width: 1150px)': {
+    paddingBlock: '7rem 2rem',
+  },
 };
 
 export const sectionTitle = {
