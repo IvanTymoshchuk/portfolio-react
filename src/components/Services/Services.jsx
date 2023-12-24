@@ -1,4 +1,6 @@
 import React from 'react';
+import { RiCodeBoxLine } from 'react-icons/ri';
+import { LuSmartphone } from 'react-icons/lu';
 
 export const Services = () => {
   return (
@@ -13,7 +15,7 @@ export const Services = () => {
           <div class="services__content">
             <div class="services__icon">
               <div class="services__box"></div>
-              <i class="ri-code-box-line"></i>
+              <RiCodeBoxLine />
             </div>
             <h2 class="services__title">Development</h2>
             <p class="services__descr">
@@ -28,7 +30,7 @@ export const Services = () => {
           <div class="services__content">
             <div class="services__icon">
               <div class="services__box"></div>
-              <i class="ri-smartphone-line"></i>
+              <LuSmartphone />
             </div>
             <h2 class="services__title">Mobile App</h2>
             <p class="services__descr">

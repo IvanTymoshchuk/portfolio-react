@@ -89,7 +89,7 @@ export const projects = [
     descr:
       'Project that you carry out in the design and structure of the  layout, showing the design at the client request.',
     gitHubHref: 'https://github.com/IvanTymoshchuk/work',
-    projHubHref: 'ttps://ivantymoshchuk.github.io/work/',
+    projHubHref: 'https://ivantymoshchuk.github.io/work/',
   },
   {
     img: img9,
