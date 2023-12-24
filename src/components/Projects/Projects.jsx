@@ -1,4 +1,6 @@
 import React from 'react';
+import { RiGithubFill } from 'react-icons/ri';
+import { TiArrowForward } from 'react-icons/ti';
 
 export const Projects = () => {
   return (
@@ -15,7 +17,7 @@ export const Projects = () => {
               class="projects__img"
             />
             <a href="#" class="projects__btn button">
-              <i class="ri-arrow-right-up-line"></i>
+              <TiArrowForward />
             </a>
           </div>
           <div class="projects__content">
@@ -28,7 +30,8 @@ export const Projects = () => {
           </div>
           <div class="projects__buttons">
             <a href="#" target="_blank" class="projects__link">
-              <i class="ri-github-line"></i>View
+              <RiGithubFill />
+              View
             </a>
           </div>
         </article>
@@ -40,7 +43,7 @@ export const Projects = () => {
               class="projects__img"
             />
             <a href="#" class="projects__btn button">
-              <i class="ri-arrow-right-up-line"></i>
+              <TiArrowForward />
             </a>
           </div>
           <div class="projects__content">
@@ -53,7 +56,8 @@ export const Projects = () => {
           </div>
           <div class="projects__buttons">
             <a href="#" target="_blank" class="projects__link">
-              <i class="ri-github-line"></i>View
+              <RiGithubFill />
+              View
             </a>
           </div>
         </article>
@@ -65,7 +69,7 @@ export const Projects = () => {
               class="projects__img"
             />
             <a href="#" class="projects__btn button">
-              <i class="ri-arrow-right-up-line"></i>
+              <TiArrowForward />
             </a>
           </div>
           <div class="projects__content">
@@ -78,7 +82,8 @@ export const Projects = () => {
           </div>
           <div class="projects__buttons">
             <a href="#" target="_blank" class="projects__link">
-              <i class="ri-github-line"></i>View
+              <RiGithubFill />
+              View
             </a>
           </div>
         </article>
@@ -90,7 +95,7 @@ export const Projects = () => {
               class="projects__img"
             />
             <a href="#" class="projects__btn button">
-              <i class="ri-arrow-right-up-line"></i>
+              <TiArrowForward />
             </a>
           </div>
           <div class="projects__content">
@@ -103,7 +108,8 @@ export const Projects = () => {
           </div>
           <div class="projects__buttons">
             <a href="#" target="_blank" class="projects__link">
-              <i class="ri-github-line"></i>View
+              <RiGithubFill />
+              View
             </a>
           </div>
         </article>
@@ -115,7 +121,7 @@ export const Projects = () => {
               class="projects__img"
             />
             <a href="#" class="projects__btn button">
-              <i class="ri-arrow-right-up-line"></i>
+              <TiArrowForward />
             </a>
           </div>
           <div class="projects__content">
@@ -128,7 +134,8 @@ export const Projects = () => {
           </div>
           <div class="projects__buttons">
             <a href="#" target="_blank" class="projects__link">
-              <i class="ri-github-line"></i>View
+              <RiGithubFill />
+              View
             </a>
           </div>
         </article>
@@ -140,7 +147,7 @@ export const Projects = () => {
               class="projects__img"
             />
             <a href="#" class="projects__btn button">
-              <i class="ri-arrow-right-up-line"></i>
+              <TiArrowForward />
             </a>
           </div>
           <div class="projects__content">
@@ -153,7 +160,8 @@ export const Projects = () => {
           </div>
           <div class="projects__buttons">
             <a href="#" target="_blank" class="projects__link">
-              <i class="ri-github-line"></i>View
+              <RiGithubFill />
+              View
             </a>
           </div>
         </article>
@@ -165,7 +173,7 @@ export const Projects = () => {
               class="projects__img"
             />
             <a href="#" class="projects__btn button">
-              <i class="ri-arrow-right-up-line"></i>
+              <TiArrowForward />
             </a>
           </div>
           <div class="projects__content">
@@ -178,7 +186,8 @@ export const Projects = () => {
           </div>
           <div class="projects__buttons">
             <a href="#" target="_blank" class="projects__link">
-              <i class="ri-github-line"></i>View
+              <RiGithubFill />
+              View
             </a>
           </div>
         </article>
@@ -190,7 +199,7 @@ export const Projects = () => {
               class="projects__img"
             />
             <a href="#" class="projects__btn button">
-              <i class="ri-arrow-right-up-line"></i>
+              <TiArrowForward />
             </a>
           </div>
           <div class="projects__content">
@@ -203,7 +212,8 @@ export const Projects = () => {
           </div>
           <div class="projects__buttons">
             <a href="#" target="_blank" class="projects__link">
-              <i class="ri-github-line"></i>View
+              <RiGithubFill />
+              View
             </a>
           </div>
         </article>
@@ -215,7 +225,7 @@ export const Projects = () => {
               class="projects__img"
             />
             <a href="#" class="projects__btn button">
-              <i class="ri-arrow-right-up-line"></i>
+              <TiArrowForward />
             </a>
           </div>
           <div class="projects__content">
@@ -228,7 +238,8 @@ export const Projects = () => {
           </div>
           <div class="projects__buttons">
             <a href="#" target="_blank" class="projects__link">
-              <i class="ri-github-line"></i>View
+              <RiGithubFill />
+              View
             </a>
           </div>
         </article>
@@ -240,7 +251,7 @@ export const Projects = () => {
               class="projects__img"
             />
             <a href="#" class="projects__btn button">
-              <i class="ri-arrow-right-up-line"></i>
+              <TiArrowForward />
             </a>
           </div>
           <div class="projects__content">
@@ -253,7 +264,8 @@ export const Projects = () => {
           </div>
           <div class="projects__buttons">
             <a href="#" target="_blank" class="projects__link">
-              <i class="ri-github-line"></i>View
+              <RiGithubFill />
+              View
             </a>
           </div>
         </article>

@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaLinkedin } from 'react-icons/fa';
-import { RiMailLine } from 'react-icons/ri';
+import { FaLinkedin, FaLocationArrow } from 'react-icons/fa';
 import my from '../../img/my2.jpg';
 import lines from '../../img/random-lines.svg';
 
@@ -34,7 +33,7 @@ export const About = () => {
           </ul>
           <div class="about__buttons">
             <a href="#contact" class="button">
-              <RiMailLine />
+              <FaLocationArrow />
               Contact Me
             </a>
             <a

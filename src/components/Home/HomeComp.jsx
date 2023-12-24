@@ -20,6 +20,7 @@ import {
 } from './HomeComp.styled';
 import { FaLinkedin } from 'react-icons/fa';
 import { RiGithubFill } from 'react-icons/ri';
+import { MdOutlineKeyboardDoubleArrowDown } from 'react-icons/md';
 import my from '../../img/my.jpg';
 import arrow from '../../img/curved-arrow.svg';
 import lines from '../../img/random-lines.svg';
@@ -65,7 +66,7 @@ export const HomeComp = () => {
           </HomeDescr>
           <HomeScroll href="#about" class="home__scroll">
             <HomeScrollBox class="home__scroll-box">
-              <i class="ri-arrow-down-double-line"></i>
+              <MdOutlineKeyboardDoubleArrowDown />
             </HomeScrollBox>
             <HomeScrollText class="home__scroll-text">
               {' '}
