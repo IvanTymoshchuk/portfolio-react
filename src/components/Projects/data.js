@@ -16,6 +16,8 @@ export const projects = [
     title: 'Sport Life',
     descr:
       'Project that you carry out in the design and structure of the  layout, showing the design at the client request.',
+    gitHubHref: 'https://github.com/IvanTymoshchuk/sport-life',
+    projHubHref: 'https://margomarm.github.io/september-project/',
   },
   {
     img: img3,
@@ -23,6 +25,8 @@ export const projects = [
     title: 'Cinemania',
     descr:
       'Project that you carry out in the design and structure of the  layout, showing the design at the client request.',
+    gitHubHref: 'https://github.com/IvanTymoshchuk/cinemania',
+    projHubHref: 'https://alexkorpol.github.io/cinemania/',
   },
   {
     img: img2,
@@ -30,6 +34,8 @@ export const projects = [
     title: 'Phonebook',
     descr:
       'Project that you carry out in the design and structure of the  layout, showing the design at the client request.',
+    gitHubHref: 'https://github.com/IvanTymoshchuk/goit-react-hw-08-phonebook',
+    projHubHref: 'https://ivantymoshchuk.github.io/goit-react-hw-08-phonebook/',
   },
   {
     img: img10,
@@ -37,6 +43,8 @@ export const projects = [
     title: 'Evo-Gym',
     descr:
       'Project that you carry out in the design and structure of the  layout, showing the design at the client request.',
+    gitHubHref: 'https://github.com/IvanTymoshchuk/gym',
+    projHubHref: 'https://ivantymoshchuk.github.io/gym/',
   },
   {
     img: img6,
@@ -44,6 +52,8 @@ export const projects = [
     title: 'Ice-Cream',
     descr:
       'Project that you carry out in the design and structure of the  layout, showing the design at the client request.',
+    gitHubHref: 'https://github.com/IvanTymoshchuk/eskimo',
+    projHubHref: 'https://ivantymoshchuk.github.io/eskimo/',
   },
   {
     img: img5,
@@ -51,6 +61,8 @@ export const projects = [
     title: 'Creative Scroll',
     descr:
       'Project that you carry out in the design and structure of the  layout, showing the design at the client request.',
+    gitHubHref: 'https://github.com/IvanTymoshchuk/creative-scroll',
+    projHubHref: 'https://ivantymoshchuk.github.io/creative-scroll/',
   },
   {
     img: img7,
@@ -58,6 +70,8 @@ export const projects = [
     title: 'Barbershop',
     descr:
       'Project that you carry out in the design and structure of the  layout, showing the design at the client request.',
+    gitHubHref: 'https://github.com/IvanTymoshchuk/barbershop',
+    projHubHref: 'https://ivantymoshchuk.github.io/barbershop/',
   },
   {
     img: img1,
@@ -65,6 +79,8 @@ export const projects = [
     title: 'Guess the number',
     descr:
       'Project that you carry out in the design and structure of the  layout, showing the design at the client request.',
+    gitHubHref: 'https://github.com/IvanTymoshchuk/Guess-the-number',
+    projHubHref: 'https://ivantymoshchuk.github.io/Guess-the-number/',
   },
   {
     img: img8,
@@ -72,6 +88,8 @@ export const projects = [
     title: 'Investing',
     descr:
       'Project that you carry out in the design and structure of the  layout, showing the design at the client request.',
+    gitHubHref: 'https://github.com/IvanTymoshchuk/work',
+    projHubHref: 'ttps://ivantymoshchuk.github.io/work/',
   },
   {
     img: img9,
@@ -79,5 +97,7 @@ export const projects = [
     title: 'Architecture',
     descr:
       'Project that you carry out in the design and structure of the  layout, showing the design at the client request.',
+    gitHubHref: 'https://github.com/IvanTymoshchuk/Architecture',
+    projHubHref: 'https://ivantymoshchuk.github.io/Architecture/',
   },
 ];
