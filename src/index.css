@@ -63,7 +63,7 @@ img {
 .section__title-1,
 .section__title-2 {
   position: relative;
-  font-size: var(--h1-font-size);
+  font-size: 1.75rem;
   width: max-content;
   margin: 0.75rem auto 2rem;
   &::after {
@@ -92,14 +92,14 @@ img {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: var(--first-color);
+  background-color: hsl(14, 98%, 50%);
   rotate: -30deg;
   &::after {
     content: '';
     position: absolute;
     width: 16px;
     height: 16px;
-    border: 3px solid var(--black-color);
+    border: 3px solid hsl(0, 0%, 18%);
     left: -5px;
     top: -5px;
   }
@@ -117,13 +117,13 @@ img {
   column-gap: 0.5rem;
 }
 .button {
-  background-color: var(--black-color);
+  background-color: hsl(0, 0%, 18%);
   padding: 1.1rem 1.5rem;
-  color: var(--white-color);
-  font-weight: var(--font-medium);
+  color: hsl(0, 0%, 95%);
+  font-weight: 500;
   transition: background-color 0.4s;
   &:hover {
-    background-color: var(--first-color);
+    background-color: hsl(14, 98%, 50%);
   }
 }
 
@@ -135,19 +135,19 @@ img {
 }
 
 .button-ghost {
-  border: 3px solid var(--black-color);
-  color: var(--black-color);
+  border: 3px solid hsl(0, 0%, 18%);
+  color: hsl(0, 0%, 18%);
   padding: 0.5rem;
   transition: border 0.4s, color 0.4s;
   &:hover {
-    border: 3px solid var(--first-color);
+    border: 3px solid hsl(14, 98%, 50%);
   }
 }
 
 /*=============== ABOUT ===============*/
 
 .about {
-  background-color: var(--container-color);
+  background-color: hsl(0, 0%, 12%);
   transition: background-color 0.4s;
 }
 
@@ -165,7 +165,7 @@ img {
 }
 .about__img {
   position: relative;
-  border: 4px solid var(--white-color);
+  border: 4px solid hsl(0, 0%, 95%);
   z-index: 1;
 }
 .about__shadow,
@@ -177,10 +177,10 @@ img {
 .about__shadow {
   width: 150px;
   height: 385px;
-  background-color: var(--body-color);
+  background-color: hsl(0, 0%, 8%);
   top: -2.5rem;
   right: -3.5rem;
-  border-bottom: 4px solid var(--first-color);
+  border-bottom: 4px solid hsl(14, 98%, 50%);
   transition: background-color 0.4s;
 }
 
@@ -199,7 +199,7 @@ img {
 .about__box {
   width: 40px;
   height: 40px;
-  background-color: var(--first-color);
+  background-color: hsl(14, 98%, 50%);
   right: -0.5rem;
   bottom: 1.5rem;
 }
@@ -209,13 +209,13 @@ img {
 
 .about_descr {
   position: relative;
-  color: var(--title-color);
+  color: hsl(0, 0%, 95%);
   margin-bottom: 1.5rem;
   &::after {
     content: '';
     width: 20px;
     height: 1px;
-    background-color: var(--title-color);
+    background-color: hsl(0, 0%, 95%);
     position: absolute;
     left: -1.75rem;
     top: 0.5rem;
@@ -223,7 +223,7 @@ img {
 }
 .about__list {
   list-style: square;
-  color: var(--title-color);
+  color: hsl(0, 0%, 95%);
   margin-bottom: 3rem;
 }
 
@@ -251,7 +251,7 @@ img {
   position: absolute;
   width: 100%;
   height: 100%;
-  border: 4px solid var(--first-color);
+  border: 4px solid hsl(14, 98%, 50%);
   top: 0;
   left: 0;
   transition: transform 0.4s;
@@ -261,8 +261,8 @@ img {
 }
 .services__content {
   height: 100%;
-  background-color: var(--body-color);
-  border: 4px solid var(--black-color);
+  background-color: hsl(0, 0%, 8%);
+  border: 4px solid hsl(0, 0%, 18%);
   padding: 6rem 1rem 3rem;
   z-index: 5;
   position: relative;
@@ -275,27 +275,27 @@ img {
 .services__icon i {
   position: relative;
   font-size: 2rem;
-  color: var(--black-color);
+  color: hsl(0, 0%, 18%);
   z-index: 5;
 }
 .services__box {
   position: absolute;
   width: 24px;
   height: 24px;
-  background-color: var(--first-color);
+  background-color: hsl(14, 98%, 50%);
   right: -2px;
   top: -2px;
 }
 
 .services__title {
-  font-size: var(--h2-font-size);
+  font-size: 1.25rem;
   margin-bottom: 1.25rem;
 }
 
 /*=============== PROJECTS ===============*/
 
 .projects {
-  background-color: var(--container-color);
+  background-color: hsl(0, 0%, 12%);
   transition: background-color 0.4s;
 }
 
@@ -307,7 +307,7 @@ img {
   padding: 1rem 1rem 2rem;
   transition: background-color 0.4s;
   &:hover {
-    background-color: var(--body-color);
+    background-color: hsl(0, 0%, 8%);
   }
 }
 .projects__image {
@@ -328,23 +328,23 @@ img {
 .projects__sybtitle {
   position: relative;
   display: inline-block;
-  font-size: var(--small-font-size);
-  font-weight: var(--font-medium);
-  color: var(--text-color);
+  font-size: 0.813rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 70%);
   margin-bottom: 0.75rem;
   padding-left: 1.75rem;
   &::after {
     content: '';
     width: 20px;
     height: 1px;
-    background-color: var(--text-color);
+    background-color: hsl(0, 0%, 70%);
     position: absolute;
     top: 50%;
     left: 0;
   }
 }
 .projects__title {
-  font-size: var(--h3-font-size);
+  font-size: 1.125rem;
   margin-bottom: 0.75rem;
 }
 
@@ -357,19 +357,19 @@ img {
   display: flex;
   align-items: center;
   column-gap: 0.25rem;
-  color: var(--text-color);
-  font-size: var(--small-font-size);
-  font-weight: var(--font-medium);
+  color: hsl(0, 0%, 70%);
+  font-size: 0.813rem;
+  font-weight: 500;
   transition: color 0.4s;
 }
 .projects__link i {
-  color: var(--title-color);
+  color: hsl(0, 0%, 95%);
   font-size: 1rem;
   transition: color 0.4s;
 }
 .projects__link:hover,
 .projects__link:hover i {
-  color: var(--first-color);
+  color: hsl(14, 98%, 50%);
 }
 
 /*=============== CONTACT ===============*/
@@ -388,34 +388,34 @@ img {
   position: relative;
   width: 300px;
   height: 300px;
-  background-color: var(--container-color);
+  background-color: hsl(0, 0%, 12%);
   padding: 3rem 1.5rem 3.5rem;
   margin-left: auto;
-  border-bottom: 4px solid var(--first-color);
+  border-bottom: 4px solid hsl(14, 98%, 50%);
   z-index: 5;
   transition: background-color 0.4s;
 }
 
 .contact__description-1 {
-  color: var(--title-color);
-  font-weight: var(--font-medium);
+  color: hsl(0, 0%, 95%);
+  font-weight: 500;
   margin-bottom: 2rem;
 }
 .contact__description-2 {
-  color: var(--title-color);
-  font-size: var(--small-font-size);
+  color: hsl(0, 0%, 95%);
+  font-size: 0.813rem;
 }
 
 .contact__mail {
   position: relative;
-  background-color: var(--container-color);
+  background-color: hsl(0, 0%, 12%);
   padding: 5rem 1.5rem 2.5rem;
   margin-top: -2.5rem;
   transition: background-color 0.4s;
 }
 .contact__title {
-  color: var(--white-color);
-  font-size: var(--h2-font-size);
+  color: hsl(0, 0%, 95%);
+  font-size: 1.25rem;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -435,8 +435,8 @@ img {
 }
 .contact__input,
 .contact__button {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 0.938rem;
   outline: none;
   border: none;
 }
@@ -444,18 +444,18 @@ img {
   position: absolute;
   width: 100%;
   height: 100%;
-  color: var(--white-color);
-  background-color: var(--black-color);
-  border: 3px solid var(--black-color-light);
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 18%);
+  border: 3px solid hsl(0, 0%, 30%);
   padding: 0.5rem 1rem;
-  font-weight: var(--font-medium);
+  font-weight: 500;
   transition: border 0.4s, background-color 0.4s;
   &::placeholder {
-    color: var(--text-color-light);
+    color: hsl(0, 0%, 64%);
     transition: opacity 0.4s;
   }
   &:focus {
-    border: 3px solid var(--white-color);
+    border: 3px solid hsl(0, 0%, 95%);
   }
   &:-webkit-autofill {
     transition: background-color 6000s, color 6000s;
@@ -468,10 +468,10 @@ img {
   position: absolute;
   top: 8px;
   left: 10px;
-  color: var(--text-color-light);
-  font-size: var(--small-font-size);
-  font-weight: var(--font-medium);
-  background-color: var(--black-color);
+  color: hsl(0, 0%, 64%);
+  font-size: 0.813rem;
+  font-weight: 500;
+  background-color: hsl(0, 0%, 18%);
   padding: 8px;
   pointer-events: none;
   transition: top 0.4s, opacity 0.4s, background-color 0.4s;
@@ -485,7 +485,7 @@ img {
   padding-top: 1rem;
 }
 .contact__button {
-  background-color: var(--first-color);
+  background-color: hsl(14, 98%, 50%);
   cursor: pointer;
 }
 
@@ -506,14 +506,14 @@ img {
   row-gap: 1.5rem;
 }
 .contact__social-description-1 {
-  color: var(--text-color-light);
-  font-size: var(--small-font-size);
+  color: hsl(0, 0%, 64%);
+  font-size: 0.813rem;
   margin-bottom: 0.5rem;
 }
 .contact__social-description-2 {
-  color: var(--white-color);
-  font-size: var(--small-font-size);
-  font-weight: var(--font-semi-bold);
+  color: hsl(0, 0%, 95%);
+  font-size: 0.813rem;
+  font-weight: 600;
 }
 .conatact__social-links {
   display: flex;
@@ -521,15 +521,15 @@ img {
   column-gap: 0.75rem;
 }
 .conatact__social-link {
-  background-color: var(--black-color-light);
+  background-color: hsl(0, 0%, 30%);
   padding: 6px;
   display: grid;
-  color: var(--white-color);
+  color: hsl(0, 0%, 95%);
   place-items: center;
   font-size: 1.25rem;
   transition: background-color 0.4s;
   &:hover {
-    background-color: var(--first-color);
+    background-color: hsl(14, 98%, 50%);
   }
 }
 
@@ -540,8 +540,8 @@ img {
 }
 
 .contact__message {
-  color: var(--white-color);
-  font-size: var(--small-font-size);
+  color: hsl(0, 0%, 95%);
+  font-size: 0.813rem;
   position: absolute;
   bottom: -1.6rem;
   left: 0;
@@ -552,7 +552,7 @@ img {
 /*=============== FOOTER ===============*/
 
 .footer {
-  background-color: var(--black-color);
+  background-color: hsl(0, 0%, 18%);
 }
 .footer__container {
   padding-block: 3rem 2rem;
@@ -564,20 +564,20 @@ img {
   column-gap: 2rem;
 }
 .footer__link {
-  color: var(--white-color);
+  color: hsl(0, 0%, 95%);
   transition: color 0.4s;
   &:hover {
-    color: var(--text-color-light);
+    color: hsl(0, 0%, 64%);
   }
 }
 .footer__copy {
-  color: var(--text-color);
-  font-size: var(--small-font-size);
+  color: hsl(0, 0%, 70%);
+  font-size: 0.813rem;
   text-align: center;
 }
 .footer__copy a {
-  color: var(--white-color);
-  font-size: var(--font-medium);
+  color: hsl(0, 0%, 95%);
+  font-size: 500;
 }
 
 /*=============== SCROLL BAR ===============*/
@@ -597,11 +597,11 @@ img {
   display: inline-flex;
   right: 1rem;
   bottom: -50%;
-  background-color: var(--black-color);
+  background-color: hsl(0, 0%, 18%);
   padding: 8px;
   font-size: 1.25rem;
-  color: var(--white-color);
-  z-index: var(--z-tooltip);
+  color: hsl(0, 0%, 95%);
+  z-index: 10;
   transition: bottom 0.4s, transform 0.4s, background-color 0.4s;
   &:hover {
     transform: translateY(-0.5rem);
