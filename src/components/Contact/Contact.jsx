@@ -1,5 +1,32 @@
 import React from 'react';
-import {} from './Contact.styled'
+import {
+  Section,
+  ContactContainer,
+  ContactData,
+  ContactTitle,
+  Span,
+  ContactDescr,
+  ContactDescrSec,
+  GeometricBox,
+  ContactMail,
+  ContactTitleSec,
+  ContactForm,
+  ContactGroup,
+  ContactBox,
+  ContactInput,
+  ContactLabel,
+  ContactArea,
+  ContactTexteria,
+  ContactMessage,
+  ContactBtn,
+  ContactSocial,
+  ContactSocialArrow,
+  ContactSocialData,
+  ContactSocialDescr,
+  ContactSocialDescr2,
+  ContactSocialLinks,
+  ContactSocialLink,
+} from './Contact.styled';
 import { FaLinkedin } from 'react-icons/fa';
 import { RiGithubFill, RiMailLine } from 'react-icons/ri';
 import arrow from '../../img/curved-arrow.svg';
@@ -84,7 +111,7 @@ export const Contact = () => {
             </div>
             <p class="contact__message" id="contact-message"></p>
             <button type="submit" class="contact__button button">
-              <RiMailLine/> Send Message
+              <RiMailLine /> Send Message
             </button>
           </form>
         </div>
@@ -105,7 +132,7 @@ export const Contact = () => {
                 class="conatact__social-link"
                 rel="noreferrer"
               >
-                <RiGithubFill/>
+                <RiGithubFill />
               </a>
 
               <a
@@ -114,7 +141,7 @@ export const Contact = () => {
                 class="conatact__social-link"
                 rel="noreferrer"
               >
-                <FaLinkedin/>
+                <FaLinkedin />
               </a>
             </div>
           </div>
