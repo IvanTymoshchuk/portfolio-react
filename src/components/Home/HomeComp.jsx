@@ -67,7 +67,7 @@ export const HomeComp = () => {
           </HomeDescr>
           <HomeScroll href="#about" class="home__scroll">
             <HomeScrollBox class="home__scroll-box">
-              <MdOutlineKeyboardDoubleArrowDown />
+              <MdOutlineKeyboardDoubleArrowDown className="home__scroll-boxIcon" />
             </HomeScrollBox>
             <HomeScrollText class="home__scroll-text">
               {' '}
