@@ -1,10 +1,5 @@
 import styled from '@emotion/styled';
-import {
-  section,
-  grid,
-  sectionTitle,
-  button,
-} from '../utils/styles';
+import { section, grid, sectionTitle, button } from '../utils/styles';
 
 export const Section = styled.section`
   ${section}
@@ -138,6 +133,7 @@ export const ContactInput = styled.input`
   &:focus::placeholder {
     opacity: 0;
   }
+  
 `;
 
 export const ContactLabel = styled.label`
@@ -160,11 +156,8 @@ export const ContactLabel = styled.label`
 
 export const ContactArea = styled.div`
   height: 10rem;
-`;
-
-export const ContactTexteria = styled.textarea`
-  resize: none;
-  padding-top: 1rem;
+  position: relative;
+  width: 100%;
 `;
 
 export const ContactMessage = styled.p`

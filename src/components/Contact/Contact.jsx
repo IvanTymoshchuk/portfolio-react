@@ -16,7 +16,6 @@ import {
   ContactInput,
   ContactLabel,
   ContactArea,
-  ContactTexteria,
   ContactMessage,
   ContactBtn,
   ContactSocial,
@@ -33,29 +32,31 @@ import arrow from '../../img/curved-arrow.svg';
 
 export const Contact = () => {
   return (
-    <section class="contact section" id="contact">
-      <div class="contact__container grid">
-        <div class="contact__data">
-          <h2 class="section__title-2">
-            <span>Contact Me.</span>
-          </h2>
-          <p class="contact__description-1">
+    <Section class="contact section" id="contact">
+      <ContactContainer class="contact__container grid">
+        <ContactData class="contact__data">
+          <ContactTitle class="section__title-2">
+            <Span>Contact Me.</Span>
+          </ContactTitle>
+          <ContactDescr class="contact__description-1">
             I will read all emails. Send me any message you want and I'll get
             back to you.
-          </p>
-          <p class="contact__description-2">
+          </ContactDescr>
+          <ContactDescrSec class="contact__description-2">
             I need your <b>Name</b> and <b>Email Address</b>, but you won't
             receive anything other than your reply.
-          </p>
-          <div class="geometric-box"></div>
-        </div>
+          </ContactDescrSec>
+          <GeometricBox class="geometric-box"></GeometricBox>
+        </ContactData>
 
-        <div class="contact__mail">
-          <h2 class="contact__title">Send Me A Message</h2>
-          <form class="contact__form" id="contact-form">
-            <div class="contact__group">
-              <div class="contact__box">
-                <input
+        <ContactMail class="contact__mail">
+          <ContactTitleSec class="contact__title">
+            Send Me A Message
+          </ContactTitleSec>
+          <ContactForm class="contact__form" id="contact-form">
+            <ContactGroup class="contact__group">
+              <ContactBox class="contact__box">
+                <ContactInput
                   type="text"
                   name="user_name"
                   placeholder="First Name"
@@ -63,13 +64,13 @@ export const Contact = () => {
                   id="name"
                   required
                 />
-                <label for="name" class="contact__label">
+                <ContactLabel for="name" class="contact__label">
                   First Name{' '}
-                </label>
-              </div>
+                </ContactLabel>
+              </ContactBox>
 
-              <div class="contact__box">
-                <input
+              <ContactBox class="contact__box">
+                <ContactInput
                   type="email"
                   name="user_email"
                   placeholder="Email Address"
@@ -77,14 +78,14 @@ export const Contact = () => {
                   id="email"
                   required
                 />
-                <label for="email" class="contact__label">
+                <ContactLabel for="email" class="contact__label">
                   Email Address
-                </label>
-              </div>
-            </div>
+                </ContactLabel>
+              </ContactBox>
+            </ContactGroup>
 
-            <div class="contact__box">
-              <input
+            <ContactBox class="contact__box">
+              <ContactInput
                 type="text"
                 name="user_subject"
                 placeholder="Subject"
@@ -92,61 +93,70 @@ export const Contact = () => {
                 id="subject"
                 required
               />
-              <label for="subject" class="contact__label">
+              <ContactLabel for="subject" class="contact__label">
                 Subject
-              </label>
-            </div>
+              </ContactLabel>
+            </ContactBox>
 
-            <div class="contact__box contact__area">
-              <textarea
+            <ContactArea class="contact__box contact__area">
+              <ContactInput
                 name="user_message"
                 placeholder="Message"
                 class="contact__input"
                 id="message"
                 required
-              ></textarea>
-              <label for="message" class="contact__label">
+              ></ContactInput>
+              <ContactLabel for="message" class="contact__label">
                 Message
-              </label>
-            </div>
-            <p class="contact__message" id="contact-message"></p>
-            <button type="submit" class="contact__button button">
+              </ContactLabel>
+            </ContactArea>
+            <ContactMessage
+              class="contact__message"
+              id="contact-message"
+            ></ContactMessage>
+            <ContactBtn type="submit" class="contact__button button">
               <RiMailLine /> Send Message
-            </button>
-          </form>
-        </div>
+            </ContactBtn>
+          </ContactForm>
+        </ContactMail>
 
-        <div class="contact__social">
-          <img src={arrow} alt="arrow" class="contact__social-arrow" />
-          <div class="contact__social-data">
+        <ContactSocial class="contact__social">
+          <ContactSocialArrow
+            src={arrow}
+            alt="arrow"
+            class="contact__social-arrow"
+          />
+          <ContactSocialData class="contact__social-data">
             <div>
-              <p class="contact__social-description-1">Does not send emails</p>
-              <p class="contact__social-description-2">
+              <ContactSocialDescr class="contact__social-description-1">
+                Does not send emails
+              </ContactSocialDescr>
+              <ContactSocialDescr2 class="contact__social-description-2">
                 Write me on my social networks
-              </p>
+              </ContactSocialDescr2>
             </div>
-            <div class="conatact__social-links">
-              <a
+            <ContactSocialLinks class="conatact__social-links">
+              <ContactSocialLink
                 href="https://github.com/IvanTymoshchuk"
                 target="_blank"
                 class="conatact__social-link"
                 rel="noreferrer"
               >
                 <RiGithubFill />
-              </a>
+              </ContactSocialLink>
 
-              <a
+              <ContactSocialLink
                 href="https://www.linkedin.com/in/ivan-tymoshchukk/"
                 target="_blank"
                 class="conatact__social-link"
                 rel="noreferrer"
               >
                 <FaLinkedin />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+              </ContactSocialLink>
+            </ContactSocialLinks>
+          </ContactSocialData>
+        </ContactSocial>
+      </ContactContainer>
+    </Section>
   );
 };
