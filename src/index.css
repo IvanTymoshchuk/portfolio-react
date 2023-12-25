@@ -313,7 +313,7 @@ img {
 
 /*=============== PROJECTS ===============*/
 
-.projects {
+/* .projects {
   background-color: hsl(0, 0%, 12%);
   transition: background-color 0.4s;
 }
@@ -389,7 +389,7 @@ img {
 .projects__link:hover,
 .projects__link:hover i {
   color: hsl(14, 98%, 50%);
-}
+} */
 
 /*=============== CONTACT ===============*/
 
@@ -670,9 +670,9 @@ img {
   /* .services__container {
     grid-template-columns: repeat(2, 250px);
   } */
-  .projects__container {
+  /* .projects__container {
     grid-template-columns: repeat(3, 350px);
-  }
+  } */
 }
 /* For large devices */
 @media screen and (min-width: 1150px) {

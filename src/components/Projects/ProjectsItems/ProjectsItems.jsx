@@ -1,4 +1,16 @@
 import React from 'react';
+import {
+  ProjectsCard,
+  ProjectsImage,
+  ProjectsImg,
+  ProjectsBtn,
+  ProjectsContent,
+  ProjectsSubtitle,
+  ProjectsTitle,
+  ProjectsDescr,
+  ProjectsButtons,
+  ProjectsLink,
+} from './ProjectsItems.styled';
 import { RiGithubFill } from 'react-icons/ri';
 import { TiArrowForward } from 'react-icons/ti';
 
@@ -12,20 +24,22 @@ export const ProjectsItems = ({
 }) => {
   return (
     <div>
-      <article class="projects__card">
-        <div class="projects__image">
-          <img src={img} alt="projects" class="projects__img" />
-          <a href={projHubHref} class="projects__btn button">
+      <ProjectsCard class="projects__card">
+        <ProjectsImage class="projects__image">
+          <ProjectsImg src={img} alt="projects" class="projects__img" />
+          <ProjectsBtn href={projHubHref} class="projects__btn button">
             <TiArrowForward />
-          </a>
-        </div>
-        <div class="projects__content">
-          <h3 class="projects__sybtitle">{sybtitle}</h3>
-          <h4 class="projects__title">{title}</h4>
-          <p class="projects__decr">{descr}</p>
-        </div>
-        <div class="projects__buttons">
-          <a
+          </ProjectsBtn>
+        </ProjectsImage>
+        <ProjectsContent class="projects__content">
+          <ProjectsSubtitle class="projects__sybtitle">
+            {sybtitle}
+          </ProjectsSubtitle>
+          <ProjectsTitle class="projects__title">{title}</ProjectsTitle>
+          <ProjectsDescr class="projects__decr">{descr}</ProjectsDescr>
+        </ProjectsContent>
+        <ProjectsButtons class="projects__buttons">
+          <ProjectsLink
             href={gitHubHref}
             rel="noreferrer"
             target="_blank"
@@ -33,9 +47,9 @@ export const ProjectsItems = ({
           >
             <RiGithubFill />
             View
-          </a>
-        </div>
-      </article>
+          </ProjectsLink>
+        </ProjectsButtons>
+      </ProjectsCard>
     </div>
   );
 };
