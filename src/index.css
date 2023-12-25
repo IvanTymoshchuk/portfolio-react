@@ -393,7 +393,7 @@ img {
 
 /*=============== CONTACT ===============*/
 
-.contact {
+/* .contact {
   padding-bottom: 0;
 }
 
@@ -564,7 +564,7 @@ img {
   position: absolute;
   bottom: -1.6rem;
   left: 0;
-}
+} */
 
 /* Move label up & sticky label */
 
@@ -647,11 +647,11 @@ img {
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
-  .home__container {
+  /* .home__container {
     grid-template-columns: 350px;
     justify-content: center;
-  }
-  .contact__data {
+  } */
+  /* .contact__data {
     width: 350px;
     padding: 4rem 1.5rem;
     margin-inline: auto;
@@ -663,7 +663,7 @@ img {
   .contact__group {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1rem;
-  }
+  } */
 }
 /* For tablet */
 @media screen and (min-width: 768px) {

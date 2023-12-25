@@ -8,6 +8,10 @@ export const HomeContainer = styled.div`
   ${container}
   ${grid}
   padding-top: 2rem;
+  @media screen and (min-width: 576px) {
+    grid-template-columns: 350px;
+    justify-content: center;
+  }
 `;
 
 export const HomeName = styled.h1`
@@ -121,7 +125,3 @@ export const HomeScrollBox = styled.div`
 export const HomeScrollText = styled.span`
   display: none;
 `;
-
-
-
-

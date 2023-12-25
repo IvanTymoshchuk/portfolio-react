@@ -15,6 +15,10 @@ export const ContactContainer = styled.div`
   position: relative;
   grid-template-rows: 300px max-content max-content;
   row-gap: 0;
+  @media screen and (min-width: 576px) {
+    grid-template-columns: 500px;
+    justify-content: center;
+  }
 `;
 
 export const ContactData = styled.div`
@@ -27,6 +31,11 @@ export const ContactData = styled.div`
   border-bottom: 4px solid hsl(14, 98%, 50%);
   z-index: 5;
   transition: background-color 0.4s;
+  @media screen and (min-width: 576px) {
+    width: 350px;
+    padding: 4rem 1.5rem;
+    margin-inline: auto;
+  }
 `;
 
 export const ContactTitle = styled.h2`
@@ -90,6 +99,10 @@ export const ContactForm = styled.form`
 export const ContactGroup = styled.div`
   display: grid;
   row-gap: 1.25rem;
+  @media screen and (min-width: 576px) {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+  }
 `;
 
 export const ContactBox = styled.div`
