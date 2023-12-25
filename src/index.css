@@ -553,7 +553,7 @@ img {
 }
 
 /* Opaque placeholder */
-.contact__input:focus + .contact__label {
+/* .contact__input:focus + .contact__label {
   opacity: 1;
   top: -16px;
 }
@@ -564,13 +564,13 @@ img {
   position: absolute;
   bottom: -1.6rem;
   left: 0;
-} */
+} */ */
 
 /* Move label up & sticky label */
 
 /*=============== FOOTER ===============*/
 
-.footer {
+/* .footer {
   background-color: hsl(0, 0%, 18%);
 }
 .footer__container {
@@ -597,7 +597,7 @@ img {
 .footer__copy a {
   color: hsl(0, 0%, 95%);
   font-size: 500;
-}
+} */
 
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
