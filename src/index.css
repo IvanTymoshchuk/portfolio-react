@@ -144,6 +144,13 @@ img {
   }
 }
 
+.services__icons {
+  position: relative;
+  font-size: 2rem;
+  color: hsl(0, 0%, 18%);
+  z-index: 5;
+}
+
 /*=============== ABOUT ===============*/
 /* 
 .about {
@@ -236,7 +243,7 @@ img {
 
 /*=============== SERVICES ===============*/
 
-.services__container {
+/* .services__container {
   grid-template-columns: 250px;
   justify-content: center;
   row-gap: 2rem;
@@ -272,12 +279,7 @@ img {
   position: relative;
   display: inline-flex;
 }
-.services__icon i {
-  position: relative;
-  font-size: 2rem;
-  color: hsl(0, 0%, 18%);
-  z-index: 5;
-}
+
 .services__box {
   position: absolute;
   width: 24px;
@@ -290,7 +292,7 @@ img {
 .services__title {
   font-size: 1.25rem;
   margin-bottom: 1.25rem;
-}
+} */
 
 /*=============== PROJECTS ===============*/
 
@@ -648,9 +650,9 @@ img {
 }
 /* For tablet */
 @media screen and (min-width: 768px) {
-  .services__container {
+  /* .services__container {
     grid-template-columns: repeat(2, 250px);
-  }
+  } */
   .projects__container {
     grid-template-columns: repeat(3, 350px);
   }

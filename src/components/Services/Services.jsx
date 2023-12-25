@@ -1,45 +1,62 @@
 import React from 'react';
+import {
+  Section,
+  SectionTitle,
+  Span,
+  ServicesContainer,
+  ServicesCard,
+  ServicesBorder,
+  ServicesContent,
+  ServicesIcon,
+  ServicesBox,
+  ServicesTitleSec,
+  ServicesDesr,
+} from './Services.styled';
 import { RiCodeBoxLine } from 'react-icons/ri';
 import { LuSmartphone } from 'react-icons/lu';
 
 export const Services = () => {
   return (
-    <section class="services section">
-      <h2 class="section__title-2">
-        <span>Services.</span>
-      </h2>
-      <div class="services__container container grid">
-        <article class="services__card">
-          <div class="services__border"></div>
+    <Section class="services section">
+      <SectionTitle class="section__title-2">
+        <Span>Services.</Span>
+      </SectionTitle>
+      <ServicesContainer class="services__container container grid">
+        <ServicesCard class="services__card">
+          <ServicesBorder class="services__border"></ServicesBorder>
 
-          <div class="services__content">
-            <div class="services__icon">
-              <div class="services__box"></div>
-              <RiCodeBoxLine />
-            </div>
-            <h2 class="services__title">Development</h2>
-            <p class="services__descr">
+          <ServicesContent class="services__content">
+            <ServicesIcon class="services__icon">
+              <ServicesBox class="services__box"></ServicesBox>
+              <RiCodeBoxLine className="services__icons" />
+            </ServicesIcon>
+            <ServicesTitleSec class="services__title">
+              Development
+            </ServicesTitleSec>
+            <ServicesDesr class="services__descr">
               Custom web development tailored to your specifications, designed
               to provide a flawless user experience.
-            </p>
-          </div>
-        </article>
-        <article class="services__card">
-          <div class="services__border"></div>
+            </ServicesDesr>
+          </ServicesContent>
+        </ServicesCard>
+        <ServicesCard class="services__card">
+          <ServicesBorder class="services__border"></ServicesBorder>
 
-          <div class="services__content">
-            <div class="services__icon">
-              <div class="services__box"></div>
-              <LuSmartphone />
-            </div>
-            <h2 class="services__title">Mobile App</h2>
-            <p class="services__descr">
+          <ServicesContent class="services__content">
+            <ServicesIcon class="services__icon">
+              <ServicesBox class="services__box"></ServicesBox>
+              <LuSmartphone className="services__icons" />
+            </ServicesIcon>
+            <ServicesTitleSec class="services__title">
+              Mobile App
+            </ServicesTitleSec>
+            <ServicesDesr class="services__descr">
               Design and transform website projects into mobile apps to provide
               a seamless user experience.
-            </p>
-          </div>
-        </article>
-      </div>
-    </section>
+            </ServicesDesr>
+          </ServicesContent>
+        </ServicesCard>
+      </ServicesContainer>
+    </Section>
   );
 };
