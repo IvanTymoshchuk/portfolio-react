@@ -1,4 +1,5 @@
 import React from 'react';
+import {} from './Contact.styled'
 import { FaLinkedin } from 'react-icons/fa';
 import { RiGithubFill, RiMailLine } from 'react-icons/ri';
 import arrow from '../../img/curved-arrow.svg';
