@@ -1,6 +1,12 @@
 import styled from '@emotion/styled';
+import { section, grid, container, sectionTitle } from '../utils/styles';
 
-export const HomeContainer = styled.section`
+export const Section = styled.section`
+  ${section}
+`;
+export const HomeContainer = styled.div`
+  ${container}
+  ${grid}
   padding-top: 2rem;
 `;
 
@@ -23,11 +29,11 @@ export const HomeImg = styled.img`
 export const HomeShadow = styled.div`
   width: 100%;
   height: 100%;
-  background-color: var(--container-color);
+  background-color: hsl(0, 0%, 12%);
   position: absolute;
   bottom: -0.75rem;
   right: -0.75rem;
-  border: 4px solid var(--black-color);
+  border: 4px solid hsl(0, 0%, 18%);
   z-index: 5;
   transition: background-color 0.4s;
 `;
@@ -65,15 +71,15 @@ export const HomeSocial = styled.div`
   row-gap: 1rem;
 `;
 export const HomeSocialLink = styled.a`
-  background-color: var(--black-color-light);
-  color: var(--white-color);
+  background-color: hsl(0, 0%, 30%);
+  color: hsl(0, 0%, 95%);
   font-size: 1.25rem;
   padding: 6px;
   display: grid;
   place-items: center;
   transition: background-color 0.3s;
   &:hover {
-    background-color: var(--black-color);
+    background-color: hsl(0, 0%, 18%);
   }
 `;
 
@@ -82,7 +88,7 @@ export const HomeInfo = styled.div`
 `;
 export const HomeDescr = styled.p`
   text-align: center;
-  color: var(--title-color);
+  color: hsl(0, 0%, 95%);
   margin-bottom: 1.5rem;
 `;
 export const HomeDescrB = styled.b`
@@ -100,8 +106,8 @@ export const HomeScroll = styled.a`
 `;
 
 export const HomeScrollBox = styled.div`
-  background-color: var(--black-color);
-  color: var(--white-color);
+  background-color: hsl(0, 0%, 18%);
+  color: hsl(0, 0%, 95%);
   width: 36px;
   height: 36px;
   display: grid;
