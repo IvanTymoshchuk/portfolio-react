@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { section, grid, container, sectionTitle } from '../utils/styles';
+import { section, grid, container } from '../utils/styles';
 
 export const Section = styled.section`
   ${section}
@@ -122,22 +122,6 @@ export const HomeScrollText = styled.span`
   display: none;
 `;
 
-// .home__scroll-box i {
-//   animation: scroll-down 2s infinite;
-// }
 
-// /* Animate scroll icon */
-// @keyframes scroll-down {
-//   0% {
-//     transform: translateY(-1rem);
-//     opacity: 0;
-//   }
-//   50% {
-//     transform: translateY(0);
-//     opacity: 1;
-//   }
-//   100% {
-//     transform: translateY(0.6rem);
-//     opacity: 0;
-//   }
-// }
+
+
