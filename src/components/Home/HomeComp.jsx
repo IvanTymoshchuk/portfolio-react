@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  Section,
   HomeContainer,
   HomeName,
   HomePerfil,
@@ -27,8 +28,8 @@ import lines from '../../img/random-lines.svg';
 
 export const HomeComp = () => {
   return (
-    <HomeContainer class="home section" id="home">
-      <div class="home__container container grid">
+    <Section class="home section" id="home">
+      <HomeContainer class="home__container container grid">
         <HomeName class="hone__name">Ivan Tymoshchuk</HomeName>
         <HomePerfil class="home__perfil">
           <HomeImage class="home__image">
@@ -74,7 +75,7 @@ export const HomeComp = () => {
             </HomeScrollText>
           </HomeScroll>
         </HomeInfo>
-      </div>
-    </HomeContainer>
+      </HomeContainer>
+    </Section>
   );
 };
