@@ -34,6 +34,10 @@ export const SectionTitle = styled.h2`
     right: -8px;
   }
 `;
+export const Span = styled.span`
+  z-index: 5;
+  position: relative;
+`;
 
 export const AboutPerfil = styled.div`
   position: relative;

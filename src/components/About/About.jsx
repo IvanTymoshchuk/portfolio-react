@@ -3,6 +3,7 @@ import {
   Section,
   AboutContainer,
   SectionTitle,
+  Span,
   AboutPerfil,
   AboutImage,
   AboutImg,
@@ -27,7 +28,7 @@ export const About = () => {
     <Section class="about section" id="about">
       <AboutContainer class="about__container container grid">
         <SectionTitle class="section__title-1">
-          <span>About Me.</span>
+          <Span>About Me.</Span>
         </SectionTitle>
         <AboutPerfil class="about__perfil">
           <AboutImage class="about__image">
