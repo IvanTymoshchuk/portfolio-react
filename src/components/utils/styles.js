@@ -1,6 +1,9 @@
 export const container = {
   maxWidth: '1120px',
   marginInline: '1.5rem',
+  '@media screen and (max-width: 340px)': {
+    marginInline: '1rem',
+  },
   '@media screen and (min-width: 576px)': {
     gridTemplateColumns: '350px',
     justifyContent: 'center',
@@ -27,6 +30,12 @@ export const sectionTitle = {
   fontSize: '1.75rem',
   width: 'max-content',
   margin: '0.75rem auto 2rem',
+  '@media screen and (min-width: 1150px)': {
+    '&::after': {
+      width: '70px',
+      height: '48px',
+    },
+  },
 };
 
 export const geometricBox = {
