@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Headers,
   Nav,
@@ -16,6 +16,12 @@ import { IoEyeOutline, IoEyeOffOutline } from 'react-icons/io5';
 import { RiMoonClearLine } from 'react-icons/ri';
 
 export const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <Headers class="header" id="header">
       <Nav class="nav container">
@@ -24,7 +30,7 @@ export const Header = () => {
           <NavLogoName class="nav__logo--name">Ivan Tymoshchuk</NavLogoName>
         </NavLogo>
 
-        <NavMenu class="nav__menu" id="nav-menu">
+        <NavMenu className={isMenuOpen ? 'show' : ''}>
           <NavTitle class="nav__title">Menu</NavTitle>
           <NavName class="nav__name">Ivan</NavName>
           <NavList class="nav__list">
@@ -53,8 +59,8 @@ export const Header = () => {
             </li>
           </NavList>
 
-          <NavClose class="nav__close" id="nav-close">
-            <IoEyeOffOutline />
+          <NavClose class="nav__close" id="nav-close" onClick={toggleMenu}>
+            <IoEyeOffOutline width="40px" height="40px" />
           </NavClose>
         </NavMenu>
         <div class="nav__buttons">
@@ -62,8 +68,8 @@ export const Header = () => {
             class="ri-moon-clear-line change-theme"
             id="theme-btn"
           />
-          <div class="nav__toggle" id="nav-toggle">
-            <IoEyeOutline />
+          <div class="nav__toggle" id="nav-toggle" onClick={toggleMenu}>
+            <IoEyeOutline width="40px" height="40px" />
           </div>
         </div>
       </Nav>
