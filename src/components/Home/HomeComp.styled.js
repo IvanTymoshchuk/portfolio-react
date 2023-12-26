@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { section, grid, container } from '../utils/styles';
+import { section, grid, container, geometricBox } from '../utils/styles';
 
 export const Section = styled.section`
   ${section}
@@ -60,9 +60,19 @@ export const HomeLines = styled.img`
 `;
 
 export const GeometricBox = styled.div`
+  ${geometricBox}
   top: 2.5rem;
   left: -0.7rem;
   z-index: 10;
+  &::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 3px solid hsl(0, 0%, 18%);
+    left: -5px;
+    top: -5px;
+  }
 `;
 export const HomeSocial = styled.div`
   position: absolute;
