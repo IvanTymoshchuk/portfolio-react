@@ -95,6 +95,7 @@ export const NavClose = styled.div`
   @media screen and (min-width: 1150px) {
     display: none;
   }
+
   color: hsl(0, 0%, 95%);
   position: absolute;
   font-size: 1.5rem;
@@ -153,15 +154,8 @@ export const NavMenu = styled.ul`
     text-align: center;
     backdrop-filter: blur(8px);
     transition: top 0.4s;
+    &.show {
+      top: 0;
+    }
   }
 `;
-// /* Show menu */
-// .show-menu {
-//   top: 0;
-// }
-
-// /* Add shadow header */
-
-// .shadow-header {
-//   box-shadow: 0 1px 16px hsla(0, 0%, 0%, 0.12);
-// }
