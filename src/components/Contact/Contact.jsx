@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import {
   Section,
   ContactContainer,
@@ -26,11 +26,33 @@ import {
   ContactSocialLinks,
   ContactSocialLink,
 } from './Contact.styled';
+import emailjs from '@emailjs/browser';
 import { FaLinkedin } from 'react-icons/fa';
 import { RiGithubFill, RiMailLine } from 'react-icons/ri';
 import arrow from '../../img/curved-arrow.svg';
 
 export const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = e => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_g4wah68',
+        'template_omz031u',
+        form.current,
+        'P8j-HPgeqVa3ti0oj'
+      )
+      .then(
+        result => {
+          console.log('Message sent successfully ✅');
+        },
+        error => {
+          console.log('Message not sent (service error) ❌');
+        }
+      );
+  };
   return (
     <Section class="contact section" id="contact">
       <ContactContainer class="contact__container grid">
@@ -53,7 +75,12 @@ export const Contact = () => {
           <ContactTitleSec class="contact__title">
             Send Me A Message
           </ContactTitleSec>
-          <ContactForm class="contact__form" id="contact-form">
+          <ContactForm
+            class="contact__form"
+            id="contact-form"
+            ref={form}
+            onSubmit={sendEmail}
+          >
             <ContactGroup class="contact__group">
               <ContactBox class="contact__box">
                 <ContactInput
