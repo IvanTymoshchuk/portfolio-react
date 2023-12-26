@@ -100,13 +100,6 @@ img {
   bottom: 3rem;
 }
 
-/*=============== BREAKPOINTS ===============*/
-/* For small devices */
 
-@media screen and (max-width: 340px) {
-  .about__shadow {
-    height: 330px;
-    right: -2.5rem;
-  }
-}
+
 

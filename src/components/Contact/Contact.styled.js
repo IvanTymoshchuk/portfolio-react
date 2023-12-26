@@ -1,5 +1,11 @@
 import styled from '@emotion/styled';
-import { section, grid, sectionTitle, button } from '../utils/styles';
+import {
+  section,
+  grid,
+  sectionTitle,
+  button,
+  geometricBox,
+} from '../utils/styles';
 
 export const Section = styled.section`
   ${section}
@@ -54,11 +60,7 @@ export const ContactDescrSec = styled.p`
 `;
 
 export const GeometricBox = styled.div`
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background-color: hsl(14, 98%, 50%);
-  rotate: -30deg;
+  ${geometricBox}
   &::after {
     content: '';
     position: absolute;
@@ -133,7 +135,6 @@ export const ContactInput = styled.input`
   &:focus::placeholder {
     opacity: 0;
   }
-  
 `;
 
 export const ContactLabel = styled.label`

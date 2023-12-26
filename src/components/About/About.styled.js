@@ -64,6 +64,10 @@ export const AboutShodow = styled.div`
   right: -3.5rem;
   border-bottom: 4px solid hsl(14, 98%, 50%);
   transition: background-color 0.4s;
+  @media screen and (max-width: 340px) {
+    height: 330px;
+    right: -2.5rem;
+  }
 `;
 
 export const GeometricBox = styled.div`
