@@ -19,7 +19,11 @@ export const Section = styled.section`
 export const AboutContainer = styled.div`
   ${grid}
   ${container}
-  row-gap: 0;
+   row-gap: 0;
+  @media screen and (min-width: 576px) {
+    grid-template-columns: 350px;
+    justify-content: center;
+  }
 `;
 
 export const SectionTitle = styled.h2`
