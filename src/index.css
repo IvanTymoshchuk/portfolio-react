@@ -43,6 +43,8 @@ img {
 
 svg {
   cursor: pointer;
+  width: 25px;
+  height: 25px;
 }
 
 .services__icons {
