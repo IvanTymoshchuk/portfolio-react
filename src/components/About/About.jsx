@@ -25,40 +25,39 @@ import lines from '../../img/random-lines.svg';
 
 export const About = () => {
   return (
-    <Section class="about section" id="about">
-      <AboutContainer class="about__container container grid">
-        <SectionTitle class="section__title-1">
+    <Section id="about">
+      <AboutContainer>
+        <SectionTitle>
           <Span>About Me.</Span>
         </SectionTitle>
-        <AboutPerfil class="about__perfil">
-          <AboutImage class="about__image">
-            <AboutImg src={my} alt="my2" class="about__img" />
-            <AboutShodow class="about__shadow"></AboutShodow>
-            <GeometricBox class="geometric-box"></GeometricBox>
-            <AboutLine src={lines} alt="random-lines" class="about__line" />
-            <AboutBox class="about__box"></AboutBox>
+        <AboutPerfil>
+          <AboutImage>
+            <AboutImg src={my} alt="my2" />
+            <AboutShodow></AboutShodow>
+            <GeometricBox></GeometricBox>
+            <AboutLine src={lines} alt="random-lines" />
+            <AboutBox></AboutBox>
           </AboutImage>
         </AboutPerfil>
-        <AboutInfo class="about__info">
-          <AboutDesr class="about_descr">
+        <AboutInfo>
+          <AboutDesr>
             Passionate about creating <b>Web Pages</b> with
             <b>UI/UX User Interface</b>, I have 1 year of experience and many
             clients are happy with the projects carried out.
           </AboutDesr>
-          <AboutList class="about__list">
-            <AboutItem class="about__item">
+          <AboutList>
+            <AboutItem>
               <b>My Skills Are:</b> HTML5, CSS3, JavaScript, TypeScript, React,
               Node Git & GitHub, Bootstrap, Figma.
             </AboutItem>
           </AboutList>
-          <AboutButtons class="about__buttons">
-            <Button href="#contact" class="button">
+          <AboutButtons>
+            <Button href="#contact">
               <FaLocationArrow />
               Contact Me
             </Button>
             <ButtonGhost
               href="https://www.linkedin.com/in/ivan-tymoshchukk/"
-              class="button-ghost"
               rel="noreferrer"
               target="_blank"
             >

@@ -41,6 +41,10 @@ img {
   height: auto;
 }
 
+svg {
+  cursor: pointer;
+}
+
 .services__icons {
   position: relative;
   font-size: 2rem;
@@ -65,13 +69,4 @@ img {
     transform: translateY(0.6rem);
     opacity: 0;
   }
-}
-
-/* Show menu */
-
-
-/* Add shadow header */
-
-.shadow-header {
-  box-shadow: 0 1px 16px hsla(0, 0%, 0%, 0.12);
 }
