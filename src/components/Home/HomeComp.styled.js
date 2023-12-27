@@ -15,7 +15,7 @@ export const HomeContainer = styled.div`
 `;
 
 export const HomeName = styled.h1`
-  font-size: var(--biggest-font-size);
+  font-size: 2.5rem;
   text-align: center;
 `;
 export const HomePerfil = styled.div`
