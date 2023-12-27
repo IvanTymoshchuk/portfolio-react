@@ -7,6 +7,15 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
   ${sectionTitle}
+  &::after {
+    content: '';
+    width: 40px;
+    height: 28px;
+    background-color: hsla(14, 98%, 50%, 0.2);
+    position: absolute;
+    top: -4px;
+    right: -8px;
+  }
 `;
 
 export const Span = styled.span`
