@@ -28,6 +28,9 @@ export const ProjectsContainer = styled.div`
   ${grid}
   row-gap: 2rem;
   @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(2, 350px);
+  }
+  @media screen and (min-width: 1100px) {
     grid-template-columns: repeat(3, 350px);
   }
 `;
