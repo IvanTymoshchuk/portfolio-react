@@ -1,10 +1,5 @@
 import styled from '@emotion/styled';
-import {
-  section,
-  grid,
-  sectionTitle,
-  geometricBox,
-} from '../utils/styles';
+import { section, grid, sectionTitle, geometricBox } from '../utils/styles';
 
 export const Section = styled.section`
   ${section}
@@ -54,17 +49,6 @@ export const ContactTitle = styled.h2`
 export const Span = styled.span`
   z-index: 5;
   position: relative;
-`;
-
-export const ContactDescr = styled.p`
-  color: hsl(0, 0%, 95%);
-  font-weight: 500;
-  margin-bottom: 2rem;
-`;
-
-export const ContactDescrSec = styled.p`
-  color: hsl(0, 0%, 95%);
-  font-size: 0.813rem;
 `;
 
 export const GeometricBox = styled.div`
