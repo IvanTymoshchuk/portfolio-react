@@ -12,6 +12,7 @@ import {
   NavLink,
   NavMenu,
   NavTogle,
+  NavBtn
 } from './Header.styled';
 import { IoEyeOutline, IoEyeOffOutline } from 'react-icons/io5';
 import { RiMoonClearLine } from 'react-icons/ri';
@@ -64,12 +65,12 @@ export const Header = () => {
             <IoEyeOffOutline width="40px" height="40px" />
           </NavClose>
         </NavMenu>
-        <div class="nav__buttons">
+        <NavBtn class="nav__buttons">
           <RiMoonClearLine />
           <NavTogle class="nav__toggle" id="nav-toggle" onClick={toggleMenu}>
             <IoEyeOutline width="40px" height="40px" />
           </NavTogle>
-        </div>
+        </NavBtn>
       </Nav>
     </Headers>
   );

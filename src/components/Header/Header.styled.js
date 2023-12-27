@@ -104,6 +104,11 @@ export const NavClose = styled.div`
   cursor: pointer;
 `;
 export const NavLogoName = styled.span``;
+export const NavBtn = styled.div`
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+`;
 
 export const NavList = styled.ul`
   display: flex;
