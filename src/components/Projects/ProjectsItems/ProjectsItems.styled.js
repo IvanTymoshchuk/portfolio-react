@@ -20,7 +20,7 @@ export const ProjectsBtn = styled.a`
   bottom: -1.5rem;
   padding: 1rem;
   &:hover {
-    color: hsl(14, 98%, 50%);
+    background-color: hsl(14, 98%, 50%);
   }
 `;
 export const ProjectsContent = styled.div`
@@ -49,6 +49,7 @@ export const ProjectsTitle = styled.h4`
   margin-bottom: 0.75rem;
 `;
 export const ProjectsDescr = styled.p``;
+
 export const ProjectsButtons = styled.div`
   display: flex;
   align-items: center;
