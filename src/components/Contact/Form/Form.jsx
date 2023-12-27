@@ -10,7 +10,7 @@ import {
   ContactArea,
   ContactMessage,
   ContactBtn,
-} from '../Contact.styled';
+} from './Form.styled';
 
 export const Form = () => {
   const form = useRef();
