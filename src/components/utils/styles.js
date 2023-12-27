@@ -4,6 +4,7 @@ export const container = {
   '@media screen and (max-width: 340px)': {
     marginInline: '1rem',
   },
+
   '@media screen and (min-width: 1150px)': {
     marginInline: 'auto',
   },
