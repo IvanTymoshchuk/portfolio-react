@@ -28,6 +28,7 @@ export const Form = () => {
             type="text"
             name="user_name"
             placeholder="First Name"
+            pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
             id="name"
             required
           />
@@ -51,6 +52,7 @@ export const Form = () => {
           type="text"
           name="user_subject"
           placeholder="Subject"
+          pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
           id="subject"
           required
         />
