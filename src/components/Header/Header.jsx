@@ -9,6 +9,7 @@ import {
   NavName,
   NavClose,
   NavList,
+  NavItems,
   NavLink,
   NavMenu,
   NavTogle,
@@ -36,21 +37,21 @@ export const Header = () => {
           <NavTitle>Menu</NavTitle>
           <NavName>Ivan</NavName>
           <NavList>
-            <li>
+            <NavItems>
               <NavLink href="#home">Home</NavLink>
-            </li>
+            </NavItems>
 
-            <li>
+            <NavItems>
               <NavLink href="#about">About Me</NavLink>
-            </li>
+            </NavItems>
 
-            <li>
+            <NavItems>
               <NavLink href="#projects">Projects</NavLink>
-            </li>
+            </NavItems>
 
-            <li>
+            <NavItems>
               <NavLink href="#contact">Contact Me</NavLink>
-            </li>
+            </NavItems>
           </NavList>
 
           <NavClose onClick={toggleMenu}>
