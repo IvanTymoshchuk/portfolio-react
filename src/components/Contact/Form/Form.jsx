@@ -31,7 +31,7 @@ export const Form = () => {
             id="name"
             required
           />
-          <ContactLabel for="name">First Name </ContactLabel>
+          <ContactLabel htmlFor="name">First Name </ContactLabel>
         </ContactBox>
 
         <ContactBox>
@@ -42,7 +42,7 @@ export const Form = () => {
             id="email"
             required
           />
-          <ContactLabel for="email">Email Address</ContactLabel>
+          <ContactLabel htmlFor="email">Email Address</ContactLabel>
         </ContactBox>
       </ContactGroup>
 
@@ -54,7 +54,7 @@ export const Form = () => {
           id="subject"
           required
         />
-        <ContactLabel for="subject">Subject</ContactLabel>
+        <ContactLabel htmlFor="subject">Subject</ContactLabel>
       </ContactBox>
 
       <ContactArea>
@@ -64,7 +64,7 @@ export const Form = () => {
           id="message"
           required
         ></ContactInput>
-        <ContactLabel for="message">Message</ContactLabel>
+        <ContactLabel htmlFor="message">Message</ContactLabel>
       </ContactArea>
       <ContactMessage id="contact-message"></ContactMessage>
       <ContactBtn type="submit">
