@@ -28,7 +28,7 @@ export const Services = () => {
           <ServicesContent>
             <ServicesIcon>
               <ServicesBox></ServicesBox>
-              <RiCodeBoxLine />
+              <RiCodeBoxLine className="services__icons" />
             </ServicesIcon>
             <ServicesTitleSec>Development</ServicesTitleSec>
             <ServicesDesr>
@@ -43,7 +43,7 @@ export const Services = () => {
           <ServicesContent>
             <ServicesIcon>
               <ServicesBox></ServicesBox>
-              <LuSmartphone />
+              <LuSmartphone className="services__icons" />
             </ServicesIcon>
             <ServicesTitleSec>Mobile App</ServicesTitleSec>
             <ServicesDesr>
