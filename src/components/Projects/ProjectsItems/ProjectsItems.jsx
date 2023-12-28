@@ -27,7 +27,12 @@ export const ProjectsItems = ({
       <ProjectsCard class="projects__card">
         <ProjectsImage class="projects__image">
           <ProjectsImg src={img} alt="projects" class="projects__img" />
-          <ProjectsBtn href={projHubHref} class="projects__btn button">
+          <ProjectsBtn
+            href={projHubHref}
+            class="projects__btn button"
+            rel="noreferrer"
+            target="_blank"
+          >
             <TiArrowForward />
           </ProjectsBtn>
         </ProjectsImage>
