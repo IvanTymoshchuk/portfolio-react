@@ -28,6 +28,7 @@ export const Form = () => {
       .then(
         result => {
           console.log('Message sent successfully ✅');
+           form.current.reset();
         },
         error => {
           console.log('Message not sent (service error) ❌');
