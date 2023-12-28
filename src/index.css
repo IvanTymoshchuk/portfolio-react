@@ -9,6 +9,7 @@
 
 html {
   scroll-behavior: smooth;
+  cursor: url('../src/img/cursor-black&green.svg'), pointer;
 }
 
 body {
@@ -45,6 +46,13 @@ svg {
   cursor: pointer;
   width: 25px;
   height: 25px;
+  cursor: url('../src/img/cursor-black&green.svg'), pointer;
+}
+button,
+a,
+a:hover,
+button:hover {
+  cursor: url('../src/img/cursor-black&green.svg'), pointer;
 }
 
 .services__icons {
