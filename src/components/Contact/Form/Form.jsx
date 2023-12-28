@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import { sendEmail } from 'components/utils/emailService';
 import { RiMailLine } from 'react-icons/ri';
 import {
   ContactForm,
@@ -15,28 +15,13 @@ import {
 export const Form = () => {
   const form = useRef();
 
-  const sendEmail = e => {
+  const onSubmit = e => {
     e.preventDefault();
-
-    emailjs
-      .sendForm(
-        'service_g4wah68',
-        'template_omz031u',
-        form.current,
-        'P8j-HPgeqVa3ti0oj'
-      )
-      .then(
-        result => {
-          console.log('Message sent successfully ✅');
-           form.current.reset();
-        },
-        error => {
-          console.log('Message not sent (service error) ❌');
-        }
-      );
+    sendEmail(form.current);
   };
+
   return (
-    <ContactForm id="contact-form" ref={form} onSubmit={sendEmail}>
+    <ContactForm id="contact-form" ref={form} onSubmit={onSubmit}>
       <ContactGroup>
         <ContactBox>
           <ContactInput
@@ -80,7 +65,6 @@ export const Form = () => {
           required
         ></ContactInput>
         <ContactLabel for="message">Message</ContactLabel>
-
       </ContactArea>
       <ContactMessage id="contact-message"></ContactMessage>
       <ContactBtn type="submit">
