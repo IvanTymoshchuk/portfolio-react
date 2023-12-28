@@ -83,10 +83,14 @@ export const ContactMessage = styled.p`
 
 export const ContactBtn = styled.button`
   ${button}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 0.938rem;
-  outline: none;
   border: none;
   background-color: hsl(14, 98%, 50%);
+
   cursor: pointer;
 `;
