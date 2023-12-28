@@ -119,6 +119,8 @@ export const NavList = styled.ul`
     column-gap: 4rem;
   }
 `;
+export const NavItems = styled.li``;
+
 export const NavLink = styled.a`
   position: relative;
   color: hsl(0, 0%, 64%);
