@@ -3,16 +3,19 @@ import { Outlet } from 'react-router-dom';
 import { Header } from '../Header/Header';
 import { Footer } from '../Footer/Footer';
 import { Loader } from '../Loader/Loader';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export const Layout = () => {
   return (
-    <div>
+    <main>
       <Header />
       <Suspense fallback={<Loader />}>
         <Outlet />
       </Suspense>
       <Footer />
-    </div>
+      <ToastContainer />
+    </main>
   );
 };
 

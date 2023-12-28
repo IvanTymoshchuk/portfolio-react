@@ -1,4 +1,6 @@
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
+import { notifyOptions } from './notifyOptions';
 
 export const sendEmail = formRef => {
   return emailjs
@@ -9,12 +11,12 @@ export const sendEmail = formRef => {
       'P8j-HPgeqVa3ti0oj'
     )
     .then(
-      result => {
-        console.log('Message sent successfully ✅');
+      () => {
+        toast.success('Message sent successfully ✅', notifyOptions);
         formRef.reset();
       },
-      error => {
-        console.log('Message not sent (service error) ❌');
+      () => {
+        toast.error('Message not sent (service error) ❌', notifyOptions);
       }
     );
 };
