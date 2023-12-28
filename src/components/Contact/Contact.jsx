@@ -30,15 +30,19 @@ export const Contact = () => {
           <ContactTitle>
             <Span>Contact Me.</Span>
           </ContactTitle>
+          
           <ContactDescr>
             I will read all emails. Send me any message you want and I'll get
             back to you.
           </ContactDescr>
+
           <ContactDescrSec>
             I need your <b>Name</b> and <b>Email Address</b>, but you won't
             receive anything other than your reply.
           </ContactDescrSec>
+
           <GeometricBox></GeometricBox>
+
         </ContactData>
 
         <ContactMail>
@@ -74,6 +78,7 @@ export const Contact = () => {
             </ContactSocialLinks>
           </ContactSocialData>
         </ContactSocial>
+
       </ContactContainer>
     </Section>
   );
