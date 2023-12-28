@@ -10,11 +10,11 @@ import { ProjectsItems } from './ProjectsItems/ProjectsItems';
 
 export const Projects = () => {
   return (
-    <Section class="projects section" id="projects">
-      <SectionTitle class="section__title-1">
+    <Section id="projects">
+      <SectionTitle >
         <Span>Projects.</Span>
       </SectionTitle>
-      <ProjectsContainer class="projects__container container grid">
+      <ProjectsContainer >
         {projects.map((project, i) => {
           return <ProjectsItems key={i} {...project} />;
         })}
