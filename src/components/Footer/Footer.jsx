@@ -9,26 +9,20 @@ import {
 
 export const Footer = () => {
   return (
-    <Footers class="footer">
-      <FootersContainer class="footer__container container grid">
-        <FootersLinks class="footer__links">
+    <Footers>
+      <FootersContainer>
+        <FootersLinks>
           <li>
-            <FootersLink href="#about" class="footer__link">
-              About
-            </FootersLink>
+            <FootersLink href="#about">About</FootersLink>
           </li>
           <li>
-            <FootersLink href="#services" class="footer__link">
-              Services
-            </FootersLink>
+            <FootersLink href="#services">Services</FootersLink>
           </li>
           <li>
-            <FootersLink href="#projects" class="footer__link">
-              Projects
-            </FootersLink>
+            <FootersLink href="#projects">Projects</FootersLink>
           </li>
         </FootersLinks>
-        <FootersCopy class="footer__copy">
+        <FootersCopy>
           &#169; All Rights Reserved By{' '}
           <FootersCopyLink href="#">Timacode.</FootersCopyLink>
         </FootersCopy>
