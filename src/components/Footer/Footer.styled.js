@@ -15,6 +15,7 @@ export const FootersLinks = styled.ul`
   justify-content: center;
   column-gap: 2rem;
 `;
+export const FootersList = styled.li``;
 
 export const FootersLink = styled.a`
   color: hsl(0, 0%, 95%);

@@ -2,6 +2,7 @@ import {
   Footers,
   FootersContainer,
   FootersLinks,
+  FootersList,
   FootersLink,
   FootersCopy,
   FootersCopyLink,
@@ -12,15 +13,15 @@ export const Footer = () => {
     <Footers>
       <FootersContainer>
         <FootersLinks>
-          <li>
+          <FootersList>
             <FootersLink href="#about">About</FootersLink>
-          </li>
-          <li>
+          </FootersList>
+          <FootersList>
             <FootersLink href="#services">Services</FootersLink>
-          </li>
-          <li>
+          </FootersList>
+          <FootersList>
             <FootersLink href="#projects">Projects</FootersLink>
-          </li>
+          </FootersList>
         </FootersLinks>
         <FootersCopy>
           &#169; All Rights Reserved By{' '}
