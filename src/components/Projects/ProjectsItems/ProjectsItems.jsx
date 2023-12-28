@@ -24,32 +24,20 @@ export const ProjectsItems = ({
 }) => {
   return (
     <div>
-      <ProjectsCard class="projects__card">
-        <ProjectsImage class="projects__image">
-          <ProjectsImg src={img} alt="projects" class="projects__img" />
-          <ProjectsBtn
-            href={projHubHref}
-            class="projects__btn button"
-            rel="noreferrer"
-            target="_blank"
-          >
+      <ProjectsCard>
+        <ProjectsImage>
+          <ProjectsImg src={img} alt="projects" />
+          <ProjectsBtn href={projHubHref} rel="noreferrer" target="_blank">
             <TiArrowForward />
           </ProjectsBtn>
         </ProjectsImage>
-        <ProjectsContent class="projects__content">
-          <ProjectsSubtitle class="projects__sybtitle">
-            {sybtitle}
-          </ProjectsSubtitle>
-          <ProjectsTitle class="projects__title">{title}</ProjectsTitle>
-          <ProjectsDescr class="projects__decr">{descr}</ProjectsDescr>
+        <ProjectsContent>
+          <ProjectsSubtitle>{sybtitle}</ProjectsSubtitle>
+          <ProjectsTitle>{title}</ProjectsTitle>
+          <ProjectsDescr>{descr}</ProjectsDescr>
         </ProjectsContent>
-        <ProjectsButtons class="projects__buttons">
-          <ProjectsLink
-            href={gitHubHref}
-            rel="noreferrer"
-            target="_blank"
-            class="projects__link"
-          >
+        <ProjectsButtons>
+          <ProjectsLink href={gitHubHref} rel="noreferrer" target="_blank">
             <RiGithubFill />
             View
           </ProjectsLink>
