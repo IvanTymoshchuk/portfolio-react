@@ -17,40 +17,36 @@ import { LuSmartphone } from 'react-icons/lu';
 
 export const Services = () => {
   return (
-    <Section class="services section">
-      <SectionTitle class="section__title-2">
+    <Section>
+      <SectionTitle>
         <Span>Services.</Span>
       </SectionTitle>
-      <ServicesContainer class="services__container container grid">
-        <ServicesCard class="services__card">
-          <ServicesBorder class="services__border"></ServicesBorder>
+      <ServicesContainer>
+        <ServicesCard>
+          <ServicesBorder></ServicesBorder>
 
-          <ServicesContent class="services__content">
-            <ServicesIcon class="services__icon">
-              <ServicesBox class="services__box"></ServicesBox>
-              <RiCodeBoxLine className="services__icons" />
+          <ServicesContent>
+            <ServicesIcon>
+              <ServicesBox></ServicesBox>
+              <RiCodeBoxLine />
             </ServicesIcon>
-            <ServicesTitleSec class="services__title">
-              Development
-            </ServicesTitleSec>
-            <ServicesDesr class="services__descr">
+            <ServicesTitleSec>Development</ServicesTitleSec>
+            <ServicesDesr>
               Custom web development tailored to your specifications, designed
               to provide a flawless user experience.
             </ServicesDesr>
           </ServicesContent>
         </ServicesCard>
-        <ServicesCard class="services__card">
-          <ServicesBorder class="services__border"></ServicesBorder>
+        <ServicesCard>
+          <ServicesBorder></ServicesBorder>
 
-          <ServicesContent class="services__content">
-            <ServicesIcon class="services__icon">
-              <ServicesBox class="services__box"></ServicesBox>
-              <LuSmartphone className="services__icons" />
+          <ServicesContent>
+            <ServicesIcon>
+              <ServicesBox></ServicesBox>
+              <LuSmartphone />
             </ServicesIcon>
-            <ServicesTitleSec class="services__title">
-              Mobile App
-            </ServicesTitleSec>
-            <ServicesDesr class="services__descr">
+            <ServicesTitleSec>Mobile App</ServicesTitleSec>
+            <ServicesDesr>
               Design and transform website projects into mobile apps to provide
               a seamless user experience.
             </ServicesDesr>
