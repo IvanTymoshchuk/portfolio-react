@@ -4,6 +4,8 @@ import {
   ContactData,
   ContactTitle,
   Span,
+  ContactDescr,
+  ContactDescrSec,
   GeometricBox,
   ContactMail,
   ContactTitleSec,
@@ -28,7 +30,14 @@ export const Contact = () => {
           <ContactTitle class="section__title-2">
             <Span>Contact Me.</Span>
           </ContactTitle>
-
+          <ContactDescr class="contact__description-1">
+            I will read all emails. Send me any message you want and I'll get
+            back to you.
+          </ContactDescr>
+          <ContactDescrSec class="contact__description-2">
+            I need your <b>Name</b> and <b>Email Address</b>, but you won't
+            receive anything other than your reply.
+          </ContactDescrSec>
           <GeometricBox class="geometric-box"></GeometricBox>
         </ContactData>
 
@@ -75,6 +84,7 @@ export const Contact = () => {
             </ContactSocialLinks>
           </ContactSocialData>
         </ContactSocial>
+        
       </ContactContainer>
     </Section>
   );

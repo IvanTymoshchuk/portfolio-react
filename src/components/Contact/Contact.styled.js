@@ -64,6 +64,17 @@ export const GeometricBox = styled.div`
   }
 `;
 
+export const ContactDescr = styled.p`
+  color: hsl(0, 0%, 95%);
+  font-weight: 500;
+  margin-bottom: 2rem;
+`;
+
+export const ContactDescrSec = styled.p`
+  color: hsl(0, 0%, 95%);
+  font-size: 0.813rem;
+`;
+
 export const ContactMail = styled.div`
   position: relative;
   background-color: hsl(0, 0%, 12%);
