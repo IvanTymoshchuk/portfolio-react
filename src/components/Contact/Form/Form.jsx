@@ -79,6 +79,7 @@ export const Form = () => {
           required
         ></ContactInput>
         <ContactLabel for="message">Message</ContactLabel>
+
       </ContactArea>
       <ContactMessage id="contact-message"></ContactMessage>
       <ContactBtn type="submit">

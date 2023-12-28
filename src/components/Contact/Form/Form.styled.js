@@ -41,6 +41,10 @@ export const ContactInput = styled.input`
   &:focus {
     border: 3px solid hsl(0, 0%, 95%);
   }
+  &:focus + label {
+    opacity: 1;
+    top: -16px;
+  }
   &:-webkit-autofill {
     transition: background-color 6000s, color 6000s;
   }
@@ -61,10 +65,6 @@ export const ContactLabel = styled.label`
   pointer-events: none;
   transition: top 0.4s, opacity 0.4s, background-color 0.4s;
   opacity: 0;
-  &:focus {
-    opacity: 1;
-    top: -16px;
-  }
 `;
 
 export const ContactArea = styled.div`
