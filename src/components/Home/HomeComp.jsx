@@ -28,24 +28,23 @@ import lines from '../../img/random-lines.svg';
 
 export const HomeComp = () => {
   return (
-    <Section class="home section" id="home">
-      <HomeContainer class="home__container container grid">
-        <HomeName class="hone__name">Ivan Tymoshchuk</HomeName>
-        <HomePerfil class="home__perfil">
-          <HomeImage class="home__image">
-            <HomeImg class="home__img" src={my} alt="my_fofo" />
-            <HomeShadow class="home__shadow"></HomeShadow>
-            <HomeArrow src={arrow} alt="arrow" class="home__arrow" />
-            <HomeLines src={lines} alt="random-lines" class="home__line" />
+    <Section id="home">
+      <HomeContainer>
+        <HomeName>Ivan Tymoshchuk</HomeName>
+        <HomePerfil>
+          <HomeImage>
+            <HomeImg src={my} alt="my_fofo" />
+            <HomeShadow></HomeShadow>
+            <HomeArrow src={arrow} alt="arrow" />
+            <HomeLines src={lines} alt="random-lines" />
 
-            <GeometricBox class="geometric-box"></GeometricBox>
+            <GeometricBox></GeometricBox>
           </HomeImage>
-          <HomeSocial class="home__social">
+          <HomeSocial>
             <HomeSocialLink
               href="https://www.linkedin.com/in/ivan-tymoshchukk/"
               target="_blank"
               rel="noreferrer"
-              class="home__social-link"
             >
               <FaLinkedin />
             </HomeSocialLink>
@@ -53,26 +52,22 @@ export const HomeComp = () => {
               href="https://github.com/IvanTymoshchuk"
               target="_blank"
               rel="noreferrer"
-              class="home__social-link"
             >
               <RiGithubFill />
             </HomeSocialLink>
           </HomeSocial>
         </HomePerfil>
-        <HomeInfo class="home__info">
-          <HomeDescr class="home_descr">
+        <HomeInfo>
+          <HomeDescr>
             <HomeDescrB>Frontend developer</HomeDescrB>, with knowledge in web
             development and design, I offer the best projects resulting in
             quality work.
           </HomeDescr>
-          <HomeScroll href="#about" class="home__scroll">
-            <HomeScrollBox class="home__scroll-box">
+          <HomeScroll href="#about">
+            <HomeScrollBox>
               <MdOutlineKeyboardDoubleArrowDown className="home__scroll-boxIcon" />
             </HomeScrollBox>
-            <HomeScrollText class="home__scroll-text">
-              {' '}
-              Scroll Down{' '}
-            </HomeScrollText>
+            <HomeScrollText> Scroll Down </HomeScrollText>
           </HomeScroll>
         </HomeInfo>
       </HomeContainer>
