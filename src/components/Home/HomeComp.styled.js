@@ -19,7 +19,6 @@ export const HomeContainer = styled.div`
 export const HomeName = styled.h1`
   font-size: 2.5rem;
   text-align: center;
-  color: var(--title-color);
   transition: box-shadow 0.4s, background-color 0.4s;
 `;
 export const HomePerfil = styled.div`
