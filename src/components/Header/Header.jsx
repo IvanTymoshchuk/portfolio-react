@@ -62,7 +62,9 @@ export const Header = () => {
           </NavClose>
         </NavMenu>
         <NavBtn>
-          <RiMoonClearLine onClick={() => toggleTheme()} />
+          <NavTogle>
+            <RiMoonClearLine onClick={() => toggleTheme()} />
+          </NavTogle>
 
           <NavTogle onClick={toggleMenu}>
             <IoEyeOutline />

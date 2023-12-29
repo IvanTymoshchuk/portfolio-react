@@ -132,4 +132,7 @@ export const ContactSocialLink = styled.a`
   &:hover {
     background-color: hsl(14, 98%, 50%);
   }
+  svg{
+    color: white;
+  }
 `;
