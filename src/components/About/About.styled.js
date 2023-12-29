@@ -126,7 +126,7 @@ export const AboutDesr = styled.p`
 
 export const AboutList = styled.ul`
   list-style: square;
-  color:var(--title-color);
+  color: var(--title-color);
   margin-bottom: 3rem;
 `;
 
@@ -150,4 +150,10 @@ export const Button = styled.a`
 export const ButtonGhost = styled.a`
   ${buttonAndGhost}
   ${buttonGhost}
+  :hover {
+    background-color: hsl(14, 98%, 50%);
+  }
+  svg {
+    color: var(--title-color);
+  }
 `;
