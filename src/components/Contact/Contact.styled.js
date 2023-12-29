@@ -20,7 +20,7 @@ export const ContactData = styled.div`
   position: relative;
   width: 300px;
   height: 300px;
-  background-color: hsl(0, 0%, 12%);
+  background-color: var(--container-color);
   padding: 3rem 1.5rem 3.5rem;
   margin-left: auto;
   border-bottom: 4px solid hsl(14, 98%, 50%);
@@ -75,7 +75,7 @@ export const ContactDescrSec = styled.p`
 
 export const ContactMail = styled.div`
   position: relative;
-  background-color: hsl(0, 0%, 12%);
+  background-color: var(--container-color);
   padding: 5rem 1.5rem 2.5rem;
   margin-top: -2.5rem;
   transition: background-color 0.4s;
@@ -97,6 +97,7 @@ export const ContactSocial = styled.div`
 export const ContactSocialArrow = styled.img`
   width: 32px;
   margin: 0 auto;
+  filter: var(--filter);
 `;
 
 export const ContactSocialData = styled.div`
