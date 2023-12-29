@@ -43,7 +43,7 @@ export const ServicesBorder = styled.div`
   position: absolute;
   width: 100%;
   height: 100%;
-  border: 4px solid hsl(14, 98%, 50%);
+  border: 4px solid var(--orange);
   top: 0;
   left: 0;
   transition: transform 0.4s;
@@ -71,7 +71,7 @@ export const ServicesBox = styled.div`
   position: absolute;
   width: 24px;
   height: 24px;
-  background-color: hsl(14, 98%, 50%);
+  background-color: var(--orange);
   right: -2px;
   top: -2px;
 `;

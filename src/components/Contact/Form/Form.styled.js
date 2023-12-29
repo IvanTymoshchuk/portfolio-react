@@ -89,7 +89,7 @@ export const ContactBtn = styled.button`
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 0.938rem;
   border: none;
-  background-color: hsl(14, 98%, 50%);
+  background-color: var(--orange);
 
   cursor: pointer;
 `;

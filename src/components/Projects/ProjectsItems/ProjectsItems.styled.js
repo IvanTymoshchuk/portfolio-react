@@ -20,7 +20,7 @@ export const ProjectsBtn = styled.a`
   bottom: -1.5rem;
   padding: 1rem;
   &:hover {
-    background-color: hsl(14, 98%, 50%);
+    background-color: var(--orange);
   }
 `;
 export const ProjectsContent = styled.div`
@@ -63,6 +63,6 @@ export const ProjectsLink = styled.a`
   font-weight: 500;
   transition: color 0.4s;
   &:hover {
-    color: hsl(14, 98%, 50%);
+    color: var(--orange);
   }
 `;

@@ -39,7 +39,7 @@ export const geometricBox = {
   position: 'absolute',
   width: '20px',
   height: '20px',
-  backgroundColor: 'hsl(14, 98%, 50%)',
+  backgroundColor: 'var(--orange)',
   rotate: '-30deg',
 };
 
