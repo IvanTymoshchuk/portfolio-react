@@ -51,8 +51,8 @@ export const ServicesBorder = styled.div`
 
 export const ServicesContent = styled.div`
   height: 100%;
-  background-color: hsl(0, 0%, 8%);
-  border: 4px solid hsl(0, 0%, 18%);
+  background-color: var(--body-color);
+  border: 4px solid var(--black-color);
   padding: 6rem 1rem 3rem;
   z-index: 5;
   position: relative;

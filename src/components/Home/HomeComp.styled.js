@@ -105,7 +105,6 @@ export const HomeInfo = styled.div`
 `;
 export const HomeDescr = styled.p`
   text-align: center;
-  color: var(--white-color);
   margin-bottom: 1.5rem;
 `;
 export const HomeDescrB = styled.b`

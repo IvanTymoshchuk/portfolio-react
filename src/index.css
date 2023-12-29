@@ -7,26 +7,22 @@
   margin: 0;
 }
 :root {
-  --filter: invert(0);
-  --white-color: hsl(0, 0%, 95%);
-  --first-color: hsl(14, 98%, 50%);
   --black-color: hsl(0, 0%, 18%);
   --black-color-light: hsl(0, 0%, 30%);
   --title-color: hsl(0, 0%, 95%);
   --text-color: hsl(0, 0%, 70%);
   --body-color: hsl(0, 0%, 8%);
   --container-color: hsl(0, 0%, 12%);
+  --filter: invert(0);
 }
 
 .light-theme {
-  --first-color: hsl(14, 98%, 50%);
   --black-color: hsl(0, 0%, 0%);
   --black-color-light: hsl(0, 0%, 40%);
-  --white-color: hsl(0, 0%, 0%);
   --title-color: hsl(0, 0%, 0%);
   --text-color: hsl(0, 0%, 35%);
   --text-color-light: hsl(0, 0%, 64%);
-  --body-color: hsl(0, 0%, 87%);
+  --body-color: hsl(0, 0%, 94%);
   --container-color: hsl(0, 0%, 83%);
   --filter: invert(1);
 }

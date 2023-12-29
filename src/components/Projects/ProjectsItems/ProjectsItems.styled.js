@@ -5,7 +5,7 @@ export const ProjectsCard = styled.div`
   padding: 1rem 1rem 2rem;
   transition: background-color 0.4s;
   &:hover {
-    background-color: hsl(0, 0%, 8%);
+    background-color: var(--body-color);
   }
 `;
 export const ProjectsImage = styled.div`
