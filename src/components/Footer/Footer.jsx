@@ -25,7 +25,13 @@ export const Footer = () => {
         </FootersLinks>
         <FootersCopy>
           &#169; All Rights Reserved By{' '}
-          <FootersCopyLink href="#">Timacode.</FootersCopyLink>
+          <FootersCopyLink
+            href="https://github.com/IvanTymoshchuk/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Timacode.
+          </FootersCopyLink>
         </FootersCopy>
       </FootersContainer>
     </Footers>

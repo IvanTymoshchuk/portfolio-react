@@ -17,7 +17,7 @@ import { LuSmartphone } from 'react-icons/lu';
 
 export const Services = () => {
   return (
-    <Section>
+    <Section id="services">
       <SectionTitle>
         <Span>Services.</Span>
       </SectionTitle>
