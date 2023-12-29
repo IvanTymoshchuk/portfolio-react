@@ -56,6 +56,7 @@ export const NavLogoCircle = styled.span`
 `;
 
 export const NavTitle = styled.span`
+  color: white;
   display: block;
   font-size: 0.75rem;
   font-weight: 600;
@@ -66,6 +67,7 @@ export const NavTitle = styled.span`
 `;
 
 export const NavName = styled.h3`
+  color: white;
   @media screen and (min-width: 1150px) {
     display: none;
   }
@@ -101,9 +103,7 @@ export const NavClose = styled.div`
   right: 1.5rem;
   cursor: pointer;
 `;
-export const NavLogoName = styled.span`
- 
-`;
+export const NavLogoName = styled.span``;
 
 export const NavBtn = styled.div`
   display: flex;

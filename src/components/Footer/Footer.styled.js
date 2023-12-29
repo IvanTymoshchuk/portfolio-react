@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { grid, container } from '../utils/styles';
 
 export const Footers = styled.footer`
-  background-color: var(--container-color);
+  background-color: var(--black-color);
 `;
 export const FootersContainer = styled.div`
   ${container}
@@ -26,6 +26,7 @@ export const FootersLink = styled.a`
 `;
 
 export const FootersCopy = styled.span`
+  color: var(--text-color);
   font-size: 0.813rem;
   text-align: center;
 `;
