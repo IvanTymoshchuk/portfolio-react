@@ -37,26 +37,26 @@ export const HomeImg = styled.img`
 export const HomeShadow = styled.div`
   width: 100%;
   height: 100%;
-  background-color: hsl(0, 0%, 12%);
+  background-color: var(--container-color);
   position: absolute;
   bottom: -0.75rem;
   right: -0.75rem;
-  border: 4px solid hsl(0, 0%, 18%);
+  border: 4px solid var(--black-color);
   z-index: 5;
   transition: background-color 0.4s;
 `;
 export const HomeArrow = styled.img`
   position: absolute;
-  filter: none;
   width: 50px;
   transition: filter 0.4s;
   left: 40%;
   bottom: -4rem;
+  filter: var(--filter);
 `;
 
 export const HomeLines = styled.img`
   position: absolute;
-  filter: none;
+  filter: var(--filter);
   width: 50px;
   transition: filter 0.4s;
   right: -2rem;
@@ -106,7 +106,7 @@ export const HomeInfo = styled.div`
 `;
 export const HomeDescr = styled.p`
   text-align: center;
-  color: hsl(0, 0%, 95%);
+  color: var(--white-color);
   margin-bottom: 1.5rem;
 `;
 export const HomeDescrB = styled.b`

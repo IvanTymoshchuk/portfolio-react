@@ -35,7 +35,7 @@ export const HomeComp = () => {
           <HomeImage>
             <HomeImg src={my} alt="my_fofo" />
             <HomeShadow></HomeShadow>
-            <HomeArrow src={arrow} alt="arrow" />
+            <HomeArrow src={arrow} alt="arrow"/>
             <HomeLines src={lines} alt="random-lines" />
 
             <GeometricBox></GeometricBox>
