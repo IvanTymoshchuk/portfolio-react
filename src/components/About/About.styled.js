@@ -12,8 +12,7 @@ import {
 
 export const Section = styled.section`
   ${section}
-  background-color: hsl(0, 0%, 12%);
-  transition: background-color 0.4s;
+  background-color: var(--container-color);
 `;
 
 export const AboutContainer = styled.div`

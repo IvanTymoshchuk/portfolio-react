@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { section, grid, container, sectionTitle } from '../utils/styles';
 
 export const Section = styled.section`
-  background-color: hsl(0, 0%, 12%);
+  background-color: var(--container-color);
   transition: background-color 0.4s;
   ${section}
 `;
