@@ -32,13 +32,8 @@ export const NavLogo = styled.a`
   color: hsl(0, 0%, 95%);
 `;
 export const NavTogle = styled.div`
-  width: 32px;
-  height: 32px;
-  background-color: hsl(0, 0%, 18%);
-  color: hsl(0, 0%, 95%);
-  display: grid;
-  place-items: center;
-  font-size: 1.25rem;
+  width: 25px;
+  height: 25px;
   cursor: pointer;
   @media screen and (min-width: 1150px) {
     display: none;
@@ -109,6 +104,9 @@ export const NavBtn = styled.div`
   display: flex;
   align-items: center;
   column-gap: 1rem;
+  svg {
+    color: var(--title-color);
+  }
 `;
 
 export const NavList = styled.ul`
@@ -121,14 +119,14 @@ export const NavList = styled.ul`
   }
 `;
 export const NavItems = styled.li``;
+
 export const NavLink = styled.a`
   position: relative;
-  color: hsl(0, 0%, 64%);
   font-size: 1.125rem;
   font-weight: 600;
   transition: color 0.3s;
   &:hover {
-    color: hsl(0, 0%, 95%);
+    color: var(--black-color);
   }
   &:hover::after {
     width: 100%;
@@ -137,7 +135,7 @@ export const NavLink = styled.a`
     content: '';
     width: 0%;
     height: 2%;
-    background-color: hsl(0, 0%, 95%);
+    background-color: var(--title-color);
     position: absolute;
     left: 0;
     bottom: -0.5rem;
