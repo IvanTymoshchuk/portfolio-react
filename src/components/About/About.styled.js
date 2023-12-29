@@ -112,13 +112,12 @@ export const AboutInfo = styled.div`
 
 export const AboutDesr = styled.p`
   position: relative;
-  color: hsl(0, 0%, 95%);
   margin-bottom: 1.5rem;
   &::after {
     content: '';
     width: 20px;
     height: 1px;
-    background-color: hsl(0, 0%, 95%);
+    background-color: var(--title-color);
     position: absolute;
     left: -1.75rem;
     top: 0.5rem;
@@ -127,7 +126,7 @@ export const AboutDesr = styled.p`
 
 export const AboutList = styled.ul`
   list-style: square;
-  color: hsl(0, 0%, 95%);
+  color:var(--title-color);
   margin-bottom: 3rem;
 `;
 

@@ -31,7 +31,6 @@ export const ProjectsSubtitle = styled.h3`
   display: inline-block;
   font-size: 0.813rem;
   font-weight: 500;
-  color: hsl(0, 0%, 70%);
   margin-bottom: 0.75rem;
   padding-left: 1.75rem;
   &::after {

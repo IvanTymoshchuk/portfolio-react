@@ -65,13 +65,11 @@ export const GeometricBox = styled.div`
 `;
 
 export const ContactDescr = styled.p`
-  color: hsl(0, 0%, 95%);
   font-weight: 500;
   margin-bottom: 2rem;
 `;
 
 export const ContactDescrSec = styled.p`
-  color: hsl(0, 0%, 95%);
   font-size: 0.813rem;
 `;
 
@@ -84,7 +82,6 @@ export const ContactMail = styled.div`
 `;
 
 export const ContactTitleSec = styled.h2`
-  color: hsl(0, 0%, 95%);
   font-size: 1.25rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -109,13 +106,11 @@ export const ContactSocialData = styled.div`
 `;
 
 export const ContactSocialDescr = styled.p`
-  color: hsl(0, 0%, 64%);
   font-size: 0.813rem;
   margin-bottom: 0.5rem;
 `;
 
 export const ContactSocialDescr2 = styled.p`
-  color: hsl(0, 0%, 95%);
   font-size: 0.813rem;
   font-weight: 600;
 `;
@@ -130,7 +125,6 @@ export const ContactSocialLink = styled.a`
   background-color: hsl(0, 0%, 30%);
   padding: 6px;
   display: grid;
-  color: hsl(0, 0%, 95%);
   place-items: center;
   font-size: 1.25rem;
   transition: background-color 0.4s;

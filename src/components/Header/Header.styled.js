@@ -48,15 +48,14 @@ export const NavTogle = styled.div`
 export const NavLogoCircle = styled.span`
   width: 32px;
   height: 32px;
+  color: white;
   background-color: hsl(0, 0%, 18%);
-  color: hsl(0, 0%, 95%);
   display: grid;
   place-items: center;
   border-radius: 50%;
 `;
 
 export const NavTitle = styled.span`
-  color: hsl(0, 0%, 95%);
   display: block;
   font-size: 0.75rem;
   font-weight: 600;
@@ -70,7 +69,6 @@ export const NavName = styled.h3`
   @media screen and (min-width: 1150px) {
     display: none;
   }
-  color: hsl(0, 0%, 95%);
   position: relative;
   width: max-content;
   margin: 0 auto 3rem;
@@ -104,7 +102,7 @@ export const NavClose = styled.div`
   cursor: pointer;
 `;
 export const NavLogoName = styled.span`
-  color: var(--title-color);
+ 
 `;
 
 export const NavBtn = styled.div`

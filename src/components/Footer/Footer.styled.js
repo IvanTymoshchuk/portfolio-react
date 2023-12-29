@@ -26,7 +26,6 @@ export const FootersLink = styled.a`
 `;
 
 export const FootersCopy = styled.span`
-  color: hsl(0, 0%, 70%);
   font-size: 0.813rem;
   text-align: center;
 `;

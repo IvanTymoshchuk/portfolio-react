@@ -6,6 +6,17 @@
   padding: 0;
   margin: 0;
 }
+:root {
+  --filter: invert(0);
+  --white-color: hsl(0, 0%, 95%);
+  --first-color: hsl(14, 98%, 50%);
+  --black-color: hsl(0, 0%, 18%);
+  --black-color-light: hsl(0, 0%, 30%);
+  --title-color: hsl(0, 0%, 95%);
+  --text-color: hsl(0, 0%, 70%);
+  --body-color: hsl(0, 0%, 8%);
+  --container-color: hsl(0, 0%, 12%);
+}
 
 .light-theme {
   --first-color: hsl(14, 98%, 50%);
@@ -18,17 +29,6 @@
   --body-color: hsl(0, 0%, 87%);
   --container-color: hsl(0, 0%, 83%);
   --filter: invert(1);
-}
-:root {
-  --filter: invert(0);
-  --white-color: hsl(0, 0%, 95%);
-  --first-color: hsl(14, 98%, 50%);
-  --black-color: hsl(0, 0%, 18%);
-  --black-color-light: hsl(0, 0%, 30%);
-  --title-color: hsl(0, 0%, 95%);
-  --text-color: hsl(0, 0%, 70%);
-  --body-color: hsl(0, 0%, 8%);
-  --container-color: hsl(0, 0%, 12%);
 }
 
 html {
@@ -54,6 +54,11 @@ h2,
 h3,
 h4 {
   font-weight: 700;
+  color: var(--title-color);
+}
+
+p,
+span {
   color: var(--title-color);
 }
 

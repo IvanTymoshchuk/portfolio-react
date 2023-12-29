@@ -74,7 +74,6 @@ export const ContactArea = styled.div`
 `;
 
 export const ContactMessage = styled.p`
-  color: hsl(0, 0%, 95%);
   font-size: 0.813rem;
   position: absolute;
   bottom: -1.6rem;
