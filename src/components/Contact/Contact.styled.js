@@ -23,7 +23,7 @@ export const ContactData = styled.div`
   background-color: var(--container-color);
   padding: 3rem 1.5rem 3.5rem;
   margin-left: auto;
-  border-bottom: 4px solid hsl(14, 98%, 50%);
+  border-bottom: 4px solid var(--orange);
   z-index: 5;
   transition: background-color 0.4s;
   @media screen and (min-width: 576px) {
@@ -130,9 +130,9 @@ export const ContactSocialLink = styled.a`
   font-size: 1.25rem;
   transition: background-color 0.4s;
   &:hover {
-    background-color: hsl(14, 98%, 50%);
+    background-color: var(--orange);
   }
-  svg{
+  svg {
     color: white;
   }
 `;

@@ -65,7 +65,7 @@ export const AboutShodow = styled.div`
   background-color: hsl(0, 0%, 8%);
   top: -2.5rem;
   right: -3.5rem;
-  border-bottom: 4px solid hsl(14, 98%, 50%);
+  border-bottom: 4px solid var(--orange);
   transition: background-color 0.4s;
   @media screen and (max-width: 340px) {
     height: 330px;
@@ -101,7 +101,7 @@ export const AboutBox = styled.div`
   position: absolute;
   width: 40px;
   height: 40px;
-  background-color: hsl(14, 98%, 50%);
+  background-color: var(--orange);
   right: -0.5rem;
   bottom: 1.5rem;
 `;
@@ -143,7 +143,7 @@ export const Button = styled.a`
   ${button}
   ${buttonAndGhost}
   &:hover {
-    background-color: hsl(14, 98%, 50%);
+    background-color: var(--orange);
   }
 `;
 
@@ -151,7 +151,7 @@ export const ButtonGhost = styled.a`
   ${buttonAndGhost}
   ${buttonGhost}
   :hover {
-    background-color: hsl(14, 98%, 50%);
+    background-color: var(--orange);
   }
   svg {
     color: var(--title-color);
