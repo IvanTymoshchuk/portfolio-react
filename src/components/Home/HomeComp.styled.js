@@ -96,7 +96,7 @@ export const HomeSocialLink = styled.a`
   place-items: center;
   transition: background-color 0.3s;
   &:hover {
-    background-color: hsl(0, 0%, 18%);
+    background-color: hsl(14, 98%, 50%);
   }
 `;
 
