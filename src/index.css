@@ -7,6 +7,28 @@
   margin: 0;
 }
 
+.light-theme {
+  --first-color: hsl(14, 98%, 50%);
+  --black-color: hsl(0, 0%, 0%);
+  --black-color-light: hsl(0, 0%, 40%);
+  --white-color: hsl(0, 0%, 95%);
+  --title-color: hsl(0, 0%, 0%);
+  --text-color: hsl(0, 0%, 35%);
+  --text-color-light: hsl(0, 0%, 64%);
+  --body-color: hsl(0, 0%, 87%);
+  --container-color: hsl(0, 0%, 83%);
+}
+:root {
+  --white-color: hsl(0, 0%, 95%);
+  --first-color: hsl(14, 98%, 50%);
+  --black-color: hsl(0, 0%, 18%);
+  --black-color-light: hsl(0, 0%, 30%);
+  --title-color: hsl(0, 0%, 95%);
+  --text-color: hsl(0, 0%, 70%);
+  --body-color: hsl(0, 0%, 8%);
+  --container-color: hsl(0, 0%, 12%);
+}
+
 html {
   scroll-behavior: smooth;
   cursor: url('../src/img/cursor-black&green.svg'), pointer;
@@ -15,7 +37,7 @@ html {
 body {
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 0.938rem;
-  background-color: hsl(0, 0%, 8%);
+  background-color: var(--body-color);
   color: hsl(0, 0%, 70%);
   transition: background-color 0.4s;
 }

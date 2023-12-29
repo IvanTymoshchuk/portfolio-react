@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState, useContext } from 'react';
+
 import {
   Headers,
   Nav,
@@ -17,9 +18,11 @@ import {
 } from './Header.styled';
 import { IoEyeOutline, IoEyeOffOutline } from 'react-icons/io5';
 import { RiMoonClearLine } from 'react-icons/ri';
+import { ThemeContext } from 'components/utils/theme';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { toggleTheme } = useContext(ThemeContext);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -59,7 +62,8 @@ export const Header = () => {
           </NavClose>
         </NavMenu>
         <NavBtn>
-          <RiMoonClearLine />
+          <RiMoonClearLine onClick={() => toggleTheme()} />
+
           <NavTogle onClick={toggleMenu}>
             <IoEyeOutline />
           </NavTogle>

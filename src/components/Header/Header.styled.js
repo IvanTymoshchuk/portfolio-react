@@ -6,7 +6,7 @@ export const Headers = styled.header`
   width: 100%;
   top: 0;
   left: 0;
-  background-color: hsl(0, 0%, 8%);
+  background-color: var(--body-color);
   z-index: 100;
   transition: box-shadow 0.4s, background-color 0.4s;
 `;
@@ -103,7 +103,10 @@ export const NavClose = styled.div`
   right: 1.5rem;
   cursor: pointer;
 `;
-export const NavLogoName = styled.span``;
+export const NavLogoName = styled.span`
+  color: var(--title-color);
+`;
+
 export const NavBtn = styled.div`
   display: flex;
   align-items: center;
@@ -120,7 +123,6 @@ export const NavList = styled.ul`
   }
 `;
 export const NavItems = styled.li``;
-
 export const NavLink = styled.a`
   position: relative;
   color: hsl(0, 0%, 64%);
