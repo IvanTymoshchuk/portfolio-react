@@ -58,7 +58,7 @@ export const ProjectsLink = styled.a`
   display: flex;
   align-items: center;
   column-gap: 0.25rem;
-  color: hsl(0, 0%, 70%);
+  color: var(--title-color);
   font-size: 0.813rem;
   font-weight: 500;
   transition: color 0.4s;
