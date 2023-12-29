@@ -54,6 +54,7 @@ h4 {
 }
 
 p,
+a,
 span {
   color: var(--title-color);
 }
