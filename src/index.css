@@ -11,6 +11,7 @@
   --orange: hsl(14, 98%, 50%);
   --body-color: hsl(0, 0%, 8%);
   --title-color: hsl(0, 0%, 95%);
+   --black-color: hsl(0, 0%, 18%);
   --container-color: hsl(0, 0%, 12%);
   --filter: invert(0);
 }
