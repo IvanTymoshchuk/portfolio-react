@@ -20,7 +20,7 @@
   --filter: invert(1);
 }
 :root {
-  --filter:filter: invert(0);
+  --filter: invert(0);
   --white-color: hsl(0, 0%, 95%);
   --first-color: hsl(14, 98%, 50%);
   --black-color: hsl(0, 0%, 18%);
@@ -44,12 +44,17 @@ body {
   transition: background-color 0.4s;
 }
 
+section {
+  background-color: var(--body-color);
+  transition: background-color 0.4s;
+}
+
 h1,
 h2,
 h3,
 h4 {
-  color: hsl(0, 0%, 95%);
   font-weight: 700;
+  color: var(--title-color);
 }
 
 ul {

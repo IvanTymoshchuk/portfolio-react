@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { grid, container } from '../utils/styles';
 
 export const Footers = styled.footer`
-  background-color: hsl(0, 0%, 18%);
+  background-color: var(--container-color);
 `;
 export const FootersContainer = styled.div`
   ${container}
