@@ -7,7 +7,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/portfolio-react">
+    <BrowserRouter>
       <ThemeProvider>
         <App />
       </ThemeProvider>
