@@ -27,15 +27,20 @@ export const About = () => {
   return (
     <Section id="about">
       <AboutContainer>
-        <SectionTitle>
-          <Span>About Me.</Span>
-        </SectionTitle>
+        <MotionAnimate
+          animation="scrollOpacity"
+          ease={[0.17, 0.67, 0.97, -0.48]}
+          scrollPositions={[0.2, 0.5, 0.6, 0.8]}
+        >
+          <SectionTitle>
+            <Span>About Me.</Span>
+          </SectionTitle>
+        </MotionAnimate>
         <AboutPerfil>
           <MotionAnimate
-            animation="scrollFadeOut"
-            reset={true}
-            delay={0.4}
-            speed={1}
+            animation="scrollOpacity"
+            ease={[0.17, 0.67, 0.97, -0.48]}
+            scrollPositions={[0.2, 0.5, 0.6, 0.8]}
           >
             <AboutImage>
               <AboutImg src={my} alt="my2" />
@@ -47,10 +52,9 @@ export const About = () => {
           </MotionAnimate>
         </AboutPerfil>
         <MotionAnimate
-          animation="scrollFadeOut"
-          reset={true}
-          delay={0.4}
-          speed={1}
+          animation="scrollOpacity"
+          ease={[0.17, 0.67, 0.97, -0.48]}
+          scrollPositions={[0.2, 0.5, 0.6, 0.8]}
         >
           <AboutInfo>
             <AboutDesr>
