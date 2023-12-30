@@ -57,7 +57,7 @@ export const Contact = () => {
             ease={[0.17, 0.67, 0.97, -0.48]}
             scrollPositions={[0.2, 0.5, 0.6, 0.8]}
           >
-          <ContactTitleSec>Send Me A Message</ContactTitleSec>
+            <ContactTitleSec>Send Me A Message</ContactTitleSec>
             <Form />
           </MotionAnimate>
         </ContactMail>
