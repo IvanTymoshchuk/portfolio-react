@@ -1,4 +1,4 @@
-import React from 'react';
+import { MotionAnimate } from 'react-motion-animate';
 import {
   Section,
   HomeContainer,
@@ -32,44 +32,58 @@ export const HomeComp = () => {
       <HomeContainer>
         <HomeName>Ivan Tymoshchuk</HomeName>
         <HomePerfil>
-          <HomeImage>
-            <HomeImg src={my} alt="my_fofo" />
-            <HomeShadow></HomeShadow>
-            <HomeArrow src={arrow} alt="arrow"/>
-            <HomeLines src={lines} alt="random-lines" />
+          <MotionAnimate
+            animation="scrollFadeOut"
+            reset={true}
+            delay={0.4}
+            speed={1}
+          >
+            <HomeImage>
+              <HomeImg src={my} alt="my_fofo" />
+              <HomeShadow></HomeShadow>
+              <HomeArrow src={arrow} alt="arrow" />
+              <HomeLines src={lines} alt="random-lines" />
 
-            <GeometricBox></GeometricBox>
-          </HomeImage>
-          <HomeSocial>
-            <HomeSocialLink
-              href="https://www.linkedin.com/in/ivan-tymoshchukk/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaLinkedin />
-            </HomeSocialLink>
-            <HomeSocialLink
-              href="https://github.com/IvanTymoshchuk"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <RiGithubFill />
-            </HomeSocialLink>
-          </HomeSocial>
+              <GeometricBox></GeometricBox>
+            </HomeImage>
+            <HomeSocial>
+              <HomeSocialLink
+                href="https://www.linkedin.com/in/ivan-tymoshchukk/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaLinkedin />
+              </HomeSocialLink>
+              <HomeSocialLink
+                href="https://github.com/IvanTymoshchuk"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <RiGithubFill />
+              </HomeSocialLink>
+            </HomeSocial>
+          </MotionAnimate>
         </HomePerfil>
-        <HomeInfo>
-          <HomeDescr>
-            <HomeDescrB>Frontend developer</HomeDescrB>, with knowledge in web
-            development and design, I offer the best projects resulting in
-            quality work.
-          </HomeDescr>
-          <HomeScroll href="#about">
-            <HomeScrollBox>
-              <MdOutlineKeyboardDoubleArrowDown className="home__scroll-boxIcon" />
-            </HomeScrollBox>
-            <HomeScrollText> Scroll Down </HomeScrollText>
-          </HomeScroll>
-        </HomeInfo>
+        <MotionAnimate
+          animation="scrollFadeOut"
+          reset={true}
+          delay={0.4}
+          speed={1}
+        >
+          <HomeInfo>
+            <HomeDescr>
+              <HomeDescrB>Frontend developer</HomeDescrB>, with knowledge in web
+              development and design, I offer the best projects resulting in
+              quality work.
+            </HomeDescr>
+            <HomeScroll href="#about">
+              <HomeScrollBox>
+                <MdOutlineKeyboardDoubleArrowDown className="home__scroll-boxIcon" />
+              </HomeScrollBox>
+              <HomeScrollText> Scroll Down </HomeScrollText>
+            </HomeScroll>
+          </HomeInfo>
+        </MotionAnimate>
       </HomeContainer>
     </Section>
   );
