@@ -1,3 +1,4 @@
+import { MotionAnimate } from 'react-motion-animate';
 import {
   Section,
   ContactContainer,
@@ -27,27 +28,38 @@ export const Contact = () => {
     <Section id="contact">
       <ContactContainer>
         <ContactData>
-          <ContactTitle>
-            <Span>Contact Me.</Span>
-          </ContactTitle>
-          
-          <ContactDescr>
-            I will read all emails. Send me any message you want and I'll get
-            back to you.
-          </ContactDescr>
+          <MotionAnimate
+            animation="scrollOpacity"
+            ease={[0.17, 0.67, 0.97, -0.48]}
+            scrollPositions={[0.2, 0.5, 0.6, 0.8]}
+          >
+            <ContactTitle>
+              <Span>Contact Me.</Span>
+            </ContactTitle>
 
-          <ContactDescrSec>
-            I need your <b>Name</b> and <b>Email Address</b>, but you won't
-            receive anything other than your reply.
-          </ContactDescrSec>
+            <ContactDescr>
+              I will read all emails. Send me any message you want and I'll get
+              back to you.
+            </ContactDescr>
 
-          <GeometricBox></GeometricBox>
+            <ContactDescrSec>
+              I need your <b>Name</b> and <b>Email Address</b>, but you won't
+              receive anything other than your reply.
+            </ContactDescrSec>
 
+            <GeometricBox></GeometricBox>
+          </MotionAnimate>
         </ContactData>
 
         <ContactMail>
+          <MotionAnimate
+            animation="scrollOpacity"
+            ease={[0.17, 0.67, 0.97, -0.48]}
+            scrollPositions={[0.2, 0.5, 0.6, 0.8]}
+          >
           <ContactTitleSec>Send Me A Message</ContactTitleSec>
-          <Form />
+            <Form />
+          </MotionAnimate>
         </ContactMail>
 
         <ContactSocial>
@@ -78,7 +90,6 @@ export const Contact = () => {
             </ContactSocialLinks>
           </ContactSocialData>
         </ContactSocial>
-
       </ContactContainer>
     </Section>
   );
